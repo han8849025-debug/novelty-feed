@@ -3,6 +3,9 @@ on:
   schedule:
     - cron: "10 */3 * * *"
   workflow_dispatch:
+    inputs:
+      force_geo:
+        default: "0"
 permissions:
   contents: write
 jobs:
@@ -14,6 +17,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: python scrape.py
+        env:
+          FORCE_GEO: ${{ github.event.inputs.force_geo }}
       - run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"

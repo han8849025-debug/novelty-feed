@@ -1,5 +1,6 @@
 """새로움 공급원 데이터 수집 → data.json"""
 import html
+import os
 import json
 import re
 import urllib.parse
@@ -291,7 +292,7 @@ def main():
         old = {}
     # 지오캐싱은 요청이 많아서 12시간에 한 번만 새로 받는다
     geo_old = old.get("geo", {}).get("updated", "")
-    geo_due = not geo_old or NOW.replace(tzinfo=None) - datetime.strptime(geo_old, "%Y-%m-%d %H:%M") > timedelta(hours=12)
+    geo_due = os.environ.get("FORCE_GEO") == "1" or not geo_old or NOW.replace(tzinfo=None) - datetime.strptime(geo_old, "%Y-%m-%d %H:%M") > timedelta(hours=12)
     for key, fn in [("kofa", kofa), ("snu", snu), ("postcrossing", postcrossing), ("court", court), ("geo", geocaching)]:
         if key == "geo" and not geo_due:
             data[key] = old["geo"]
