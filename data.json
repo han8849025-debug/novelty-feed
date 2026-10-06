@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-06 15:15",
+ "updated": "2026-10-07 00:52",
  "kofa": [
-  {
-   "date": "2026-10-06",
-   "time": "13:30",
-   "room": "2관",
-   "title": "데스 프로미스",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010639",
-   "director": "로버트 웜플래쉬",
-   "year": "1977년",
-   "runtime": "95분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-06",
-   "time": "16:00",
-   "room": "1관",
-   "title": "오징어와 고래 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010647",
-   "director": "노아 바움백",
-   "year": "2005년",
-   "runtime": "81분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-06",
-   "time": "19:00",
-   "room": "1관",
-   "title": "블록 파티",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010648",
-   "director": "미셸 공드리",
-   "year": "2005년",
-   "runtime": "103분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-07",
    "time": "14:00",
@@ -229,7 +196,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010687",
    "director": "신상옥",
    "year": "1985년",
-   "runtime": "135분",
+   "runtime": "95분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -251,7 +218,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010669",
    "director": "이강천",
    "year": "1960년",
-   "runtime": "100분",
+   "runtime": "109분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -302,11 +269,11 @@
    "date": "2026-10-20",
    "time": "18:30",
    "room": "2관",
-   "title": "이조 여인잔혹사",
+   "title": "이조 여인잔혹사 (4K)",
    "url": "https://www.koreafilm.or.kr/movie/PM_010683",
    "director": "신상옥",
    "year": "1969년",
-   "runtime": "105분",
+   "runtime": "85분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -394,7 +361,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010679",
    "director": "최은희",
    "year": "1965년",
-   "runtime": "100분",
+   "runtime": "113분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -416,7 +383,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010685",
    "director": "신상옥",
    "year": "1975년",
-   "runtime": "112분",
+   "runtime": "63분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -559,7 +526,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010666",
    "director": "신상옥",
    "year": "1960년",
-   "runtime": "100분",
+   "runtime": "91분",
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
@@ -586,15 +553,6 @@
   }
  ],
  "snu": [
-  {
-   "date": "2026-10-06",
-   "when": "10월 6일(화) 13:00",
-   "title": "Prokofiev: The Lost Piano Concerto",
-   "place": "서울대학교 음악대학 53동 218호",
-   "url": "https://music.snu.ac.kr/event_in/13206",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_wlXyF3nU_f1313506cca2ed5288455451c03de8f831810e35_308x450.png",
-   "tuesday": false
-  },
   {
    "date": "2026-10-20",
    "when": "2026. 10. 20. (화) 7 PM",
@@ -624,9 +582,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805866,
-  "traveling": 494664,
-  "received": 88543959
+  "members": 805983,
+  "traveling": 493100,
+  "received": 88551432
  },
  "court": {
   "benches": [
@@ -883,15 +841,6 @@
   ],
   "hot": [
    {
-    "date": "2026-10-06",
-    "time": "14:00",
-    "title": "공직선거법위반(전광훈 외 1)",
-    "bench": "제27형사부 2026고합388",
-    "apply": "2026.09.30 ~ 2026.10.01 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "12"
-   },
-   {
     "date": "2026-10-07",
     "time": "10:10",
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
@@ -921,7 +870,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-06 11:48",
+  "updated": "2026-10-07 00:52",
   "caches": [
    {
     "code": "GC3B4QM",
