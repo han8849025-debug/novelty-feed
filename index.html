@@ -1,0 +1,263 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>새로움 공급원</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<style>
+:root {
+  --paper: #F1F3EE; --card: #FAFBF8; --ink: #1B2320; --muted: #59645F; --rule: #D3D9D2;
+  --accent: #1D7A4C; --accent-soft: #E0ECE4; --warm: #9E6410; --warm-soft: #F3E7D2;
+  --f-display: "Hahmlet", "Noto Serif KR", serif;
+  --f-body: "IBM Plex Sans KR", "Malgun Gothic", sans-serif;
+  --f-data: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #111614; --card: #171E1B; --ink: #E3E9E5; --muted: #9DA9A3; --rule: #2B3430;
+    --accent: #4FC08B; --accent-soft: #1A2B23; --warm: #E0A650; --warm-soft: #33281A; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #111614; --card: #171E1B; --ink: #E3E9E5; --muted: #9DA9A3; --rule: #2B3430;
+  --accent: #4FC08B; --accent-soft: #1A2B23; --warm: #E0A650; --warm-soft: #33281A; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.6 var(--f-body);
+  padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
+a { color: var(--accent); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 32px; }
+h1 { font: 700 clamp(1.9rem, 7vw, 2.5rem)/1.15 var(--f-display); margin: 0; }
+h2 { font: 700 1.2rem/1.3 var(--f-display); margin: 0; }
+.eyebrow { font: 12px var(--f-data); color: var(--muted); margin: 0 0 6px; }
+.muted { color: var(--muted); }
+section { display: grid; gap: 12px; }
+.card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; }
+
+/* 오늘 */
+.today { display: grid; gap: 10px; }
+.today .row { display: grid; grid-template-columns: 4.5em minmax(0,1fr); gap: 10px; align-items: baseline; }
+.today .k { font: 600 12.5px var(--f-body); color: var(--muted); }
+.today .v { min-width: 0; }
+
+/* 라디오 */
+.radio { display: grid; gap: 12px; }
+.radio .now { display: grid; gap: 2px; min-height: 3.2em; }
+.radio .name { font: 600 1.05rem/1.35 var(--f-body); overflow-wrap: anywhere; }
+.btns { display: flex; flex-wrap: wrap; gap: 8px; }
+button { font: 600 14px/1 var(--f-body); border-radius: 999px; padding: 11px 18px; cursor: pointer;
+  border: 1px solid var(--accent); background: var(--accent); color: var(--paper); }
+button.ghost { background: transparent; color: var(--accent); }
+button:disabled { opacity: .5; cursor: default; }
+button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.eq { display: inline-flex; gap: 2px; align-items: flex-end; height: 12px; margin-right: 6px; vertical-align: -1px; }
+.eq i { width: 3px; background: var(--accent); height: 4px; }
+.playing .eq i { animation: eq .9s infinite ease-in-out; }
+.playing .eq i:nth-child(2) { animation-delay: .2s; } .playing .eq i:nth-child(3) { animation-delay: .4s; }
+@keyframes eq { 50% { height: 12px; } }
+@media (prefers-reduced-motion: reduce) { .playing .eq i { animation: none; height: 10px; } }
+
+/* 일정 목록 */
+.days { display: grid; gap: 14px; }
+.day h3 { font: 600 13px var(--f-data); color: var(--muted); margin: 0 0 6px; }
+.day.is-today h3 { color: var(--accent); }
+.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.list li { display: grid; grid-template-columns: 3.4em minmax(0,1fr); gap: 10px; align-items: baseline;
+  background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 12px; }
+.list .t { font: 500 13px var(--f-data); font-variant-numeric: tabular-nums; }
+.list .m { min-width: 0; }
+.list .m a { font-weight: 600; text-decoration: none; color: var(--ink); }
+.list .m a:hover { text-decoration: underline; }
+.list .sub { font-size: 12.5px; color: var(--muted); }
+.list li.past { opacity: .45; }
+.badge { font: 600 11px var(--f-body); background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 2px 6px; margin-left: 6px; white-space: nowrap; }
+.more { justify-self: start; }
+
+/* 엽서 */
+.big { font: 700 clamp(1.6rem, 8vw, 2.2rem)/1.1 var(--f-data); font-variant-numeric: tabular-nums; }
+
+/* 그 외 */
+.others { display: grid; gap: 8px; }
+.others .card { display: grid; gap: 4px; padding: 14px 16px; }
+.others b { font-size: 15px; }
+.others p { margin: 0; font-size: 14px; }
+.foot { font: 12px var(--f-data); color: var(--muted); margin: 0; }
+</style>
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <p class="eyebrow" id="updated">불러오는 중…</p>
+    <h1>새로움 공급원</h1>
+  </header>
+
+  <section aria-labelledby="today-h">
+    <h2 id="today-h">오늘</h2>
+    <div class="card today" id="today"></div>
+  </section>
+
+  <section aria-labelledby="radio-h">
+    <h2 id="radio-h">지금 세계 어딘가의 라디오</h2>
+    <div class="card radio" id="radio">
+      <div class="now"><span class="name" id="r-name">버튼을 누르면 아무 나라 방송이나 틀어요</span><span class="muted" id="r-where"></span></div>
+      <div class="btns">
+        <button type="button" id="r-next">아무 데나 틀기</button>
+        <button type="button" class="ghost" id="r-stop" disabled>멈추기</button>
+      </div>
+      <audio id="r-audio" preload="none"></audio>
+    </div>
+  </section>
+
+  <section aria-labelledby="kofa-h">
+    <h2 id="kofa-h">시네마테크 KOFA 상영표 <span class="muted" style="font:400 13px var(--f-body)">무료 · 상암</span></h2>
+    <div class="days" id="kofa"></div>
+    <button type="button" class="ghost more" id="kofa-more" hidden>더 보기</button>
+  </section>
+
+  <section aria-labelledby="snu-h">
+    <h2 id="snu-h">서울대 음대 공연</h2>
+    <ul class="list" id="snu"></ul>
+  </section>
+
+  <section aria-labelledby="pc-h">
+    <h2 id="pc-h">포스트크로싱</h2>
+    <div class="card">
+      <div class="big" id="pc-traveling">–</div>
+      <p class="muted" style="margin:4px 0 0">장이 지금 지구 어딘가를 이동 중이에요. <a href="https://www.postcrossing.com/">postcrossing.com</a></p>
+    </div>
+  </section>
+
+  <section aria-labelledby="etc-h">
+    <h2 id="etc-h">언제든 할 수 있는 것</h2>
+    <div class="others">
+      <div class="card"><b>재판 방청</b><p>평일 오전 10시·오후 2시쯤 시작해요. 법정 입구 '오늘의 재판안내'를 보고 들어가요. 들어가기 전에 폰을 꺼요.</p></div>
+      <div class="card"><b>지하철 랜덤 하차</b><p>안 가본 역에 내려서 돌아다니고, 내린 역을 지도에 모아요.</p></div>
+      <div class="card"><b>자연 관찰 기록</b><p>관악산·서울대 캠퍼스에서 본 새·곤충·풀을 <a href="https://www.naturing.net/">네이처링</a>에 올려요.</p></div>
+      <div class="card"><b>지오캐싱</b><p>숨겨진 작은 통을 앱 지도로 찾아가요. <a href="https://www.geocaching.com/">geocaching.com</a></p></div>
+      <div class="card"><b>Slowly</b><p>거리만큼 늦게 도착하는 펜팔 앱이에요. <a href="https://www.getslowly.com/ko/">getslowly.com</a></p></div>
+    </div>
+  </section>
+
+  <p class="foot">영화·공연·엽서 숫자는 3시간마다 원본 사이트에서 새로 가져와요. 라디오는 누를 때마다 실시간이에요.</p>
+</main>
+
+<script>
+(function () {
+  var WD = ['일', '월', '화', '수', '목', '금', '토'];
+  function kstNow() { return new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000); }
+  function ymd(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  function parse(s) { var p = s.split('-'); return new Date(+p[0], p[1] - 1, +p[2]); }
+  function label(s) { var d = parse(s); return (d.getMonth() + 1) + '/' + d.getDate() + ' ' + WD[d.getDay()]; }
+  function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function hm(s) { var p = s.split(':'); return +p[0] * 60 + +p[1]; }
+
+  var now = kstNow(), today = ymd(now), nowMin = now.getHours() * 60 + now.getMinutes();
+
+  fetch('data.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(render).catch(function () {
+    document.getElementById('updated').textContent = '데이터를 못 불러왔어요';
+  });
+
+  function render(d) {
+    document.getElementById('updated').textContent = d.updated + ' 기준';
+
+    // 오늘
+    var rows = [];
+    var kofa = (d.kofa || []).filter(function (x) { return x.date >= today; });
+    var todays = kofa.filter(function (x) { return x.date === today && hm(x.time) > nowMin; });
+    if (todays.length) {
+      rows.push(['영화', todays.map(function (x) { return x.time + ' 《' + esc(x.title) + '》'; }).join('<br>')]);
+    } else if (kofa.length) {
+      var n = kofa[0];
+      rows.push(['영화', '오늘 남은 상영 없음 · 다음은 ' + label(n.date) + ' ' + n.time + ' 《' + esc(n.title) + '》']);
+    }
+    var snu = (d.snu || []).filter(function (x) { return x.date >= today; });
+    if (snu.length) {
+      var s = snu[0];
+      rows.push(['음악회', (s.date === today ? '오늘 ' : label(s.date) + ' ') + esc(s.title)]);
+    }
+    var wd = now.getDay();
+    rows.push(['재판', wd >= 1 && wd <= 5 ? '평일이라 법원에서 재판이 열려요' : '주말이라 재판이 없어요']);
+    var toWed = (3 - wd + 7) % 7;
+    rows.push(['수요일', toWed === 0 ? '오늘은 문화가 있는 날이에요 (영화·공연·전시 할인)' : toWed + '일 뒤 문화가 있는 날이에요']);
+    document.getElementById('today').innerHTML = rows.map(function (r) {
+      return '<div class="row"><span class="k">' + r[0] + '</span><span class="v">' + r[1] + '</span></div>';
+    }).join('');
+
+    // KOFA
+    var byDay = {};
+    kofa.forEach(function (x) { (byDay[x.date] = byDay[x.date] || []).push(x); });
+    var days = Object.keys(byDay).sort();
+    var box = document.getElementById('kofa'), more = document.getElementById('kofa-more');
+    function drawKofa(limit) {
+      box.innerHTML = days.slice(0, limit).map(function (day) {
+        return '<div class="day' + (day === today ? ' is-today' : '') + '"><h3>' + label(day) + (day === today ? ' · 오늘' : '') + '</h3><ul class="list">' +
+          byDay[day].map(function (x) {
+            var past = day === today && hm(x.time) <= nowMin;
+            var sub = [x.director, x.year, x.runtime, x.room].filter(Boolean).join(' · ');
+            return '<li' + (past ? ' class="past"' : '') + '><span class="t">' + x.time + '</span><span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a>' +
+              '<br><span class="sub">' + esc(sub) + (x.program ? '<br>' + esc(x.program) : '') + '</span></span></li>';
+          }).join('') + '</ul></div>';
+      }).join('') || '<p class="muted">올라온 상영 일정이 없어요.</p>';
+      more.hidden = days.length <= limit;
+    }
+    drawKofa(3);
+    more.onclick = function () { drawKofa(days.length); };
+
+    // 서울대
+    document.getElementById('snu').innerHTML = snu.map(function (x) {
+      return '<li><span class="t">' + label(x.date).split(' ')[0] + '</span><span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a>' +
+        (x.tuesday ? '<span class="badge">무료·선착순</span>' : '') + '<br><span class="sub">' + esc(x.when) + ' · ' + esc(x.place) + '</span></span></li>';
+    }).join('') || '<li><span></span><span class="m muted">올라온 공연이 없어요.</span></li>';
+
+    // 포스트크로싱
+    if (d.postcrossing && d.postcrossing.traveling) {
+      document.getElementById('pc-traveling').textContent = d.postcrossing.traveling.toLocaleString('ko-KR');
+    }
+  }
+
+  // 라디오 (radio-browser.info, 누를 때마다 무작위)
+  var audio = document.getElementById('r-audio'), card = document.getElementById('radio');
+  var nameEl = document.getElementById('r-name'), whereEl = document.getElementById('r-where');
+  var nextBtn = document.getElementById('r-next'), stopBtn = document.getElementById('r-stop');
+  var servers = ['de1', 'fi1', 'de2'];
+  var regionName = null;
+  try { regionName = new Intl.DisplayNames(['ko'], { type: 'region' }); } catch (e) {}
+  var queue = [];
+
+  function load(i) {
+    i = i || 0;
+    if (i >= servers.length) return Promise.reject();
+    return fetch('https://' + servers[i] + '.api.radio-browser.info/json/stations/search?order=random&limit=10&hidebroken=true&is_https=true&codec=MP3')
+      .then(function (r) { return r.json(); }).catch(function () { return load(i + 1); });
+  }
+  function next(tries) {
+    tries = tries || 0;
+    nextBtn.disabled = true;
+    nameEl.textContent = '찾는 중…'; whereEl.textContent = '';
+    var p = queue.length ? Promise.resolve() : load().then(function (l) { queue = l || []; });
+    p.then(function () {
+      var st = queue.shift();
+      if (!st) throw 0;
+      audio.src = st.url_resolved || st.url;
+      var timeout = new Promise(function (_, no) { setTimeout(no, 8000); });
+      return Promise.race([audio.play(), timeout]).then(function () {
+        var country = st.countrycode && regionName ? regionName.of(st.countrycode) : st.country;
+        nameEl.innerHTML = '<span class="eq"><i></i><i></i><i></i></span>' + esc(st.name.trim());
+        whereEl.textContent = [country, st.state, st.tags ? st.tags.split(',').slice(0, 3).join(', ') : ''].filter(Boolean).join(' · ');
+        card.classList.add('playing'); stopBtn.disabled = false;
+      });
+    }).catch(function () {
+      if (tries < 5) return next(tries + 1);
+      nameEl.textContent = '방송을 못 찾았어요. 다시 눌러 주세요';
+    }).then(function () { nextBtn.disabled = false; nextBtn.textContent = '다른 데 틀기'; });
+  }
+  nextBtn.onclick = function () { next(0); };
+  stopBtn.onclick = function () { audio.pause(); audio.removeAttribute('src'); card.classList.remove('playing'); stopBtn.disabled = true; nameEl.textContent = '멈췄어요'; whereEl.textContent = ''; };
+})();
+</script>
+</body>
+</html>
