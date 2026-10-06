@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06 09:09",
+ "updated": "2026-10-06 10:45",
  "kofa": [
   {
    "date": "2026-10-06",
@@ -198,6 +198,391 @@
    "year": "1973년",
    "runtime": "45분",
    "program": "영화와 공간: 뉴욕 Part 1"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "16:00",
+   "room": "1관",
+   "title": "오프닝 세션",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010657",
+   "director": "",
+   "year": "",
+   "runtime": "80분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-15",
+   "time": "18:00",
+   "room": "1관",
+   "title": "성춘향 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010671",
+   "director": "신상옥",
+   "year": "1961년",
+   "runtime": "144분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "14:00",
+   "room": "1관",
+   "title": "소금 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010687",
+   "director": "신상옥",
+   "year": "1985년",
+   "runtime": "135분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "17:00",
+   "room": "2관",
+   "title": "연인과 독재자",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010691",
+   "director": "로스 아담,로버트 캐넌",
+   "year": "2016년",
+   "runtime": "98분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-16",
+   "time": "19:30",
+   "room": "2관",
+   "title": "사랑의 역사 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010669",
+   "director": "이강천",
+   "year": "1960년",
+   "runtime": "100분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "12:00",
+   "room": "1관",
+   "title": "동심초 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010663",
+   "director": "신상옥",
+   "year": "1959년",
+   "runtime": "125분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-17",
+   "time": "16:00",
+   "room": "1관",
+   "title": "청일전쟁과 여걸 민비 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010676",
+   "director": "임원식,나봉한",
+   "year": "1964년",
+   "runtime": "144분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "12:30",
+   "room": "2관",
+   "title": "로맨스빠빠 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010667",
+   "director": "신상옥",
+   "year": "1960년",
+   "runtime": "131분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "15:30",
+   "room": "2관",
+   "title": "열녀문",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010673",
+   "director": "신상옥",
+   "year": "1962년",
+   "runtime": "99분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-20",
+   "time": "18:30",
+   "room": "2관",
+   "title": "이조 여인잔혹사",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010683",
+   "director": "신상옥",
+   "year": "1969년",
+   "runtime": "105분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "14:00",
+   "room": "1관",
+   "title": "탈출기 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010686",
+   "director": "신상옥",
+   "year": "1984년",
+   "runtime": "105분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "16:30",
+   "room": "2관",
+   "title": "독립협회와 청년 리승만 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010662",
+   "director": "신상옥",
+   "year": "1959년",
+   "runtime": "133분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-21",
+   "time": "19:30",
+   "room": "2관",
+   "title": "닌자키드 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010688",
+   "director": "신상옥",
+   "year": "1992년",
+   "runtime": "99분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "14:00",
+   "room": "2관",
+   "title": "어느 여대생의 고백 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010661",
+   "director": "신상옥",
+   "year": "1958년",
+   "runtime": "122분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "17:00",
+   "room": "2관",
+   "title": "산 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010680",
+   "director": "신상옥",
+   "year": "1967년",
+   "runtime": "91분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-22",
+   "time": "19:30",
+   "room": "2관",
+   "title": "무숙자 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010682",
+   "director": "신상옥",
+   "year": "1968년",
+   "runtime": "97분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "12:00",
+   "room": "2관",
+   "title": "공주님의 짝사랑 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010681",
+   "director": "최은희",
+   "year": "1967년",
+   "runtime": "94분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "14:30",
+   "room": "2관",
+   "title": "민며느리 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010679",
+   "director": "최은희",
+   "year": "1965년",
+   "runtime": "100분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-23",
+   "time": "18:30",
+   "room": "2관",
+   "title": "지옥화 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010660",
+   "director": "신상옥",
+   "year": "1958년",
+   "runtime": "86분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "12:00",
+   "room": "2관",
+   "title": "아이 러브 마마 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010685",
+   "director": "신상옥",
+   "year": "1975년",
+   "runtime": "112분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "14:00",
+   "room": "2관",
+   "title": "꿈",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010658",
+   "director": "신상옥",
+   "year": "1955년",
+   "runtime": "73분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-24",
+   "time": "17:30",
+   "room": "2관",
+   "title": "사랑방 손님과 어머니 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010670",
+   "director": "신상옥",
+   "year": "1961년",
+   "runtime": "102분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "13:00",
+   "room": "2관",
+   "title": "증발 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010689",
+   "director": "신상옥",
+   "year": "1994년",
+   "runtime": "115분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "15:30",
+   "room": "2관",
+   "title": "쌀 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010675",
+   "director": "신상옥",
+   "year": "1963년",
+   "runtime": "124분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-27",
+   "time": "18:30",
+   "room": "1관",
+   "title": "이 생명 다하도록 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010668",
+   "director": "신상옥",
+   "year": "1960년",
+   "runtime": "109분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "12:00",
+   "room": "1관",
+   "title": "겨울 이야기",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010690",
+   "director": "신상옥",
+   "year": "2004년",
+   "runtime": "84분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "14:30",
+   "room": "2관",
+   "title": "벙어리 삼룡",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010677",
+   "director": "신상옥",
+   "year": "1964년",
+   "runtime": "86분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "17:00",
+   "room": "2관",
+   "title": "빨간 마후라",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010678",
+   "director": "신상옥",
+   "year": "1964년",
+   "runtime": "105분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-28",
+   "time": "19:30",
+   "room": "2관",
+   "title": "그 여자의 죄가 아니다 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010665",
+   "director": "신상옥",
+   "year": "1959년",
+   "runtime": "104분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "14:30",
+   "room": "2관",
+   "title": "상록수",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010672",
+   "director": "신상옥",
+   "year": "1961년",
+   "runtime": "141분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "18:00",
+   "room": "2관",
+   "title": "무영탑 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010659",
+   "director": "신상옥",
+   "year": "1957년",
+   "runtime": "117분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "15:30",
+   "room": "2관",
+   "title": "로맨스그레이 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010674",
+   "director": "신상옥",
+   "year": "1963년",
+   "runtime": "125분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "18:30",
+   "room": "2관",
+   "title": "백사부인 (35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010666",
+   "director": "신상옥",
+   "year": "1960년",
+   "runtime": "100분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "12:30",
+   "room": "2관",
+   "title": "만종",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010684",
+   "director": "신상옥",
+   "year": "1969년",
+   "runtime": "119분",
+   "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "16:30",
+   "room": "2관",
+   "title": "자매의 화원 (4K)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010664",
+   "director": "신상옥",
+   "year": "1959년",
+   "runtime": "119분",
+   "program": "사랑의 역사: 신상옥x최은희"
   }
  ],
  "snu": [
@@ -239,8 +624,300 @@
   }
  ],
  "postcrossing": {
-  "members": 805825,
-  "traveling": 494890,
-  "received": 88542065
+  "members": 805830,
+  "traveling": 494736,
+  "received": 88542600
+ },
+ "court": {
+  "benches": [
+   {
+    "name": "제1-1,1-2,1-3형사부(외국인,성범죄)",
+    "days": "화,목",
+    "room": "318호"
+   },
+   {
+    "name": "제2-1,2-2,2-3형사부(성범죄,아동학대)",
+    "days": "수,금",
+    "room": "421호"
+   },
+   {
+    "name": "제4-1,4-2,4-3형사부(경제,교통,도박)",
+    "days": "화,목",
+    "room": "422호"
+   },
+   {
+    "name": "제5-1, 5-2, 5-3 형사부(부패,지재,교통)",
+    "days": "수,금",
+    "room": "422호"
+   },
+   {
+    "name": "제8-1,8-2,8-3형사부(경제,지재,법조비리,도박)",
+    "days": "수,금",
+    "room": "318호"
+   },
+   {
+    "name": "제9-1, 9-2, 9-3형사부(마약,환경,식품,보건)",
+    "days": "화,목",
+    "room": "421호"
+   },
+   {
+    "name": "제50,51형사부(항소,합의,신청)",
+    "days": "월~금",
+    "room": "522호, 421호"
+   },
+   {
+    "name": "제21형사부(선거,부패)",
+    "days": "월~금",
+    "room": "502호"
+   },
+   {
+    "name": "제22형사부(부패)",
+    "days": "월~금",
+    "room": "523호"
+   },
+   {
+    "name": "제23형사부(부패, 경제)",
+    "days": "월~금",
+    "room": "425호"
+   },
+   {
+    "name": "제24형사부(경제)",
+    "days": "월~금",
+    "room": "423호"
+   },
+   {
+    "name": "제25형사부(경제,식품,보건)",
+    "days": "월~금",
+    "room": "424호"
+   },
+   {
+    "name": "제26형사부(성범죄,소년,선거)",
+    "days": "월~금",
+    "room": "418호"
+   },
+   {
+    "name": "제27형사부(선거,부패)",
+    "days": "월~금",
+    "room": "509호"
+   },
+   {
+    "name": "제28형사부(경제)",
+    "days": "월~금",
+    "room": "510호"
+   },
+   {
+    "name": "제29형사부(성범죄,아동학대,장애인,선거)",
+    "days": "월~금",
+    "room": "519호"
+   },
+   {
+    "name": "제30형사부(외국인,성범죄,선거)",
+    "days": "월~금",
+    "room": "412호"
+   },
+   {
+    "name": "제31형사부(외국인,성범죄,선거)",
+    "days": "월~금",
+    "room": "506호"
+   },
+   {
+    "name": "제32형사부(경제)",
+    "days": "월~금",
+    "room": "408호,508호"
+   },
+   {
+    "name": "제33형사부(선거,부패)",
+    "days": "월∼금",
+    "room": "320호"
+   },
+   {
+    "name": "제34형사부(경제)",
+    "days": "월~금",
+    "room": "408호"
+   },
+   {
+    "name": "제35형사부(선거,부패)",
+    "days": "월~금",
+    "room": "405호"
+   },
+   {
+    "name": "제36형사부(경제)",
+    "days": "월~금",
+    "room": "406호"
+   },
+   {
+    "name": "제1형사단독(교통,부패)",
+    "days": "수,금",
+    "room": "513호"
+   },
+   {
+    "name": "제2형사단독(마약,환경,식품,보건)",
+    "days": "화,목",
+    "room": "522호"
+   },
+   {
+    "name": "제3형사단독(경제,지재)",
+    "days": "화,목",
+    "room": "317호"
+   },
+   {
+    "name": "제4형사단독(교통,부패)",
+    "days": "수,금",
+    "room": "501호"
+   },
+   {
+    "name": "제5형사단독(경제,지재,법조비리)",
+    "days": "화",
+    "room": "513호"
+   },
+   {
+    "name": "제6형사단독(일반.형사공보))",
+    "days": "월",
+    "room": "317호"
+   },
+   {
+    "name": "제7형사단독(교통,도박)",
+    "days": "월,목",
+    "room": "524호"
+   },
+   {
+    "name": "제8형사단독(마약,환경,식품,보건,즉결)",
+    "days": "월",
+    "room": "320호"
+   },
+   {
+    "name": "제9형사단독(마약,환경,식품,보건)",
+    "days": "화,목",
+    "room": "418호(화), 424호(목)"
+   },
+   {
+    "name": "제10형사단독(교통,도박)",
+    "days": "수,금",
+    "room": "525호"
+   },
+   {
+    "name": "제11형사단독(마약, 환경,식품,보건)",
+    "days": "화,목",
+    "room": "525호"
+   },
+   {
+    "name": "제12형사단독(외국인,소년)",
+    "days": "수,금",
+    "room": "522호"
+   },
+   {
+    "name": "제13형사단독(성범죄,장애인)",
+    "days": "수,금",
+    "room": "524호"
+   },
+   {
+    "name": "제14형사단독(성범죄)",
+    "days": "수,금",
+    "room": "526호"
+   },
+   {
+    "name": "제15형사단독(경제, 지재)",
+    "days": "화,목",
+    "room": "526호"
+   },
+   {
+    "name": "제16형사단독(성범죄,아동학대)",
+    "days": "화,금",
+    "room": "501호(화), 506호(금)"
+   },
+   {
+    "name": "제17형사단독(외국인)",
+    "days": "수,금",
+    "room": "317호"
+   },
+   {
+    "name": "제18형사단독(경제, 지재)",
+    "days": "월,수",
+    "room": "514호(월), 408호(수)"
+   },
+   {
+    "name": "제19형사단독(경제, 지재)",
+    "days": "월,목",
+    "room": "501호"
+   },
+   {
+    "name": "제20형사단독(성범죄)",
+    "days": "월,목",
+    "room": "513호(월), 509호(목)"
+   },
+   {
+    "name": "제21형사단독(교통,법조비리)",
+    "days": "월,목",
+    "room": "525호(월), 423호(목)"
+   },
+   {
+    "name": "제22형사단독(고정전담)",
+    "days": "화,목",
+    "room": "523호(화), 519호(목)"
+   },
+   {
+    "name": "제23형사단독(경제,지재)",
+    "days": "수,금",
+    "room": "514호"
+   },
+   {
+    "name": "제24형사단독(마약,환경,식품,보건)",
+    "days": "화,목",
+    "room": "514호"
+   },
+   {
+    "name": "제25형사단독(교통,법조비리)",
+    "days": "화,금",
+    "room": "524호(화), 412호(금)"
+   },
+   {
+    "name": "제26형사단독(고정전담)",
+    "days": "월, 수",
+    "room": "422호(월), 425호(수)"
+   },
+   {
+    "name": "제27형사단독(소년,아동학대,약식,즉결)",
+    "days": "금",
+    "room": "508호"
+   }
+  ],
+  "hot": [
+   {
+    "date": "2026-10-06",
+    "time": "14:00",
+    "title": "공직선거법위반(전광훈 외 1)",
+    "bench": "제27형사부 2026고합388",
+    "apply": "2026.09.30 ~ 2026.10.01 (매일 11시 ~ 17시)",
+    "status": "추첨완료",
+    "seats": "12"
+   },
+   {
+    "date": "2026-10-07",
+    "time": "10:10",
+    "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
+    "bench": "제27형사부 2026고합115",
+    "apply": "2026.09.30 ~ 2026.10.01 (매일 11시 ~ 17시)",
+    "status": "추첨완료",
+    "seats": "8"
+   },
+   {
+    "date": "2026-10-14",
+    "time": "10:10",
+    "title": "직권남용감금 등(피고인 윤석열 외 11)",
+    "bench": "제27형사부 2025고합1566",
+    "apply": "2026.10.08 ~ 2026.10.09 (매일 11시 ~ 17시)",
+    "status": "진행예정",
+    "seats": "22"
+   },
+   {
+    "date": "2026-10-16",
+    "time": "10:10",
+    "title": "정당법위반(피고인 한학자 외 4)",
+    "bench": "제27형사부 2025고합1506",
+    "apply": "2026.10.12 ~ 2026.10.13 (매일 11시 ~ 17시)",
+    "status": "진행예정",
+    "seats": "20"
+   }
+  ]
  }
 }

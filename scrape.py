@@ -2,6 +2,7 @@
 import html
 import json
 import re
+import urllib.parse
 import urllib.request
 from datetime import datetime, timedelta, timezone
 
@@ -139,19 +140,75 @@ def postcrossing():
     return out
 
 
+# ---------- 서울중앙지법 ----------
+COURT = "https://seoul.scourt.go.kr"
+
+
+def post_cp949(url, data, opener):
+    body = urllib.parse.urlencode(data, encoding="cp949").encode()
+    req = urllib.request.Request(url, data=body, headers={**UA, "Referer": url,
+                                 "Content-Type": "application/x-www-form-urlencoded"})
+    with opener.open(req, timeout=30) as r:
+        return r.read().decode("cp949", "replace")
+
+
+def rows(page):
+    out = []
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", page, re.S):
+        out.append(([text(td) for td in re.findall(r"<td[^>]*>(.*?)</td>", tr, re.S)], tr))
+    return out
+
+
+def court():
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor())
+    url = COURT + "/jibubmgr/trial/new/TrialList.work"
+    opener.open(urllib.request.Request(url, headers=UA), timeout=30).read()
+    page = post_cp949(url, {"currentPage": "", "searchWord": "", "searchOption": "",
+                            "bub_cd": "", "seqnum": "", "group_1": "형사"}, opener)
+    benches = []
+    for cells, _ in rows(page):
+        if len(cells) >= 3 and "형사" in cells[0] and cells[1] not in ("", "-"):
+            benches.append({"name": cells[0], "days": cells[1], "room": cells[2]})
+
+    # 온라인 방청 신청 (방청권이 필요한 화제 재판)
+    url = COURT + "/attend/AttendList.work"
+    page = opener.open(urllib.request.Request(url, headers=UA), timeout=30).read().decode("cp949", "replace")
+    hot, today = [], NOW.strftime("%Y.%m.%d")
+    for cells, tr in rows(page):
+        seq = re.search(r"goView\('(\d+)'\)", tr)
+        if not seq or len(cells) < 5:
+            continue
+        m = re.match(r"(\d{4}\.\d\d\.\d\d)\s*(\d+)시\s*(\d+)분", cells[2])
+        if not m or m.group(1) < today:
+            continue
+        detail = post_cp949(COURT + "/attend/AttendView.work",
+                            {"currentPage": "1", "pageSize": "10", "bubCd": "000210",
+                             "seqno": seq.group(1), "check": "m", "encode": "1"}, opener)
+        info = {}
+        for th, td in re.findall(r"<th[^>]*>(.*?)</th>\s*<td[^>]*>(.*?)</td>", detail, re.S):
+            info[text(th)] = text(td)
+        hot.append({
+            "date": m.group(1).replace(".", "-"), "time": f"{int(m.group(2)):02d}:{m.group(3)}",
+            "title": info.get("제목", ""), "bench": cells[1],
+            "apply": cells[3], "status": cells[4], "seats": info.get("방청권수", ""),
+        })
+    hot.sort(key=lambda x: x["date"])
+    return {"benches": benches, "hot": hot}
+
+
 def main():
     data = {"updated": NOW.strftime("%Y-%m-%d %H:%M")}
     try:
         old = json.load(open("data.json", encoding="utf-8"))
     except Exception:
         old = {}
-    for key, fn in [("kofa", kofa), ("snu", snu), ("postcrossing", postcrossing)]:
+    for key, fn in [("kofa", kofa), ("snu", snu), ("postcrossing", postcrossing), ("court", court)]:
         try:
             data[key] = fn()
             print(key, "ok", len(data[key]))
         except Exception as e:
             print(key, "실패:", e)
-            data[key] = old.get(key, [] if key != "postcrossing" else {})
+            data[key] = old.get(key, {} if key in ("postcrossing", "court") else [])
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 

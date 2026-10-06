@@ -77,6 +77,11 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .badge { font: 600 11px var(--f-body); background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 2px 6px; margin-left: 6px; white-space: nowrap; }
 .more { justify-self: start; }
 
+.rooms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
+.rooms li { background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; line-height: 1.4; min-width: 0; }
+.rooms b { font: 600 14px var(--f-data); }
+.rooms span { display: block; font-size: 12.5px; }
+
 /* 엽서 */
 .big { font: 700 clamp(1.6rem, 8vw, 2.2rem)/1.1 var(--f-data); font-variant-numeric: tabular-nums; }
 
@@ -123,6 +128,13 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
     <ul class="list" id="snu"></ul>
   </section>
 
+  <section aria-labelledby="court-h">
+    <h2 id="court-h">재판 방청 <span class="muted" style="font:400 13px var(--f-body)">서울중앙지법 · 교대역</span></h2>
+    <p class="muted" style="margin:0;font-size:14px">그날 어떤 사건을 하는지는 법정 입구 '오늘의 재판안내'에 붙어 있어요. 보통 오전 10시, 오후 2시에 시작해요.</p>
+    <div class="day"><h3>방청권이 있어야 들어가는 재판</h3><ul class="list" id="court-hot"></ul></div>
+    <div class="days" id="court-today"></div>
+  </section>
+
   <section aria-labelledby="pc-h">
     <h2 id="pc-h">포스트크로싱</h2>
     <div class="card">
@@ -134,7 +146,6 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
   <section aria-labelledby="etc-h">
     <h2 id="etc-h">언제든 할 수 있는 것</h2>
     <div class="others">
-      <div class="card"><b>재판 방청</b><p>평일 오전 10시·오후 2시쯤 시작해요. 법정 입구 '오늘의 재판안내'를 보고 들어가요. 들어가기 전에 폰을 꺼요.</p></div>
       <div class="card"><b>지하철 랜덤 하차</b><p>안 가본 역에 내려서 돌아다니고, 내린 역을 지도에 모아요.</p></div>
       <div class="card"><b>자연 관찰 기록</b><p>관악산·서울대 캠퍼스에서 본 새·곤충·풀을 <a href="https://www.naturing.net/">네이처링</a>에 올려요.</p></div>
       <div class="card"><b>지오캐싱</b><p>숨겨진 작은 통을 앱 지도로 찾아가요. <a href="https://www.geocaching.com/">geocaching.com</a></p></div>
@@ -142,7 +153,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
     </div>
   </section>
 
-  <p class="foot">영화·공연·엽서 숫자는 3시간마다 원본 사이트에서 새로 가져와요. 라디오는 누를 때마다 실시간이에요.</p>
+  <p class="foot">영화·공연·재판·엽서 정보는 3시간마다 원본 사이트에서 새로 가져와요. 라디오는 누를 때마다 실시간이에요.</p>
 </main>
 
 <script>
@@ -154,6 +165,21 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
   function label(s) { var d = parse(s); return (d.getMonth() + 1) + '/' + d.getDate() + ' ' + WD[d.getDay()]; }
   function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
   function hm(s) { var p = s.split(':'); return +p[0] * 60 + +p[1]; }
+
+  function benchesOn(list, wd) {
+    var day = WD[wd];
+    if (wd === 0 || wd === 6) return [];
+    return list.filter(function (b) {
+      var ds = b.days.replace(/\s/g, '');
+      return /월[~∼]금/.test(ds) || ds.split(',').indexOf(day) >= 0;
+    }).map(function (b) {
+      var room = b.room, m = room.match(new RegExp('([^,\\s]+)\\(' + day + '\\)'));
+      if (m) room = m[1];
+      var nm = b.name.match(/^(.*?형사(?:부|단독))\s*\((.*)\)\)?$/) || [0, b.name, ''];
+      var kind = /단독/.test(b.name) ? '형사단독' : /^제\d+-/.test(b.name) || /항소/.test(b.name) ? '형사항소' : '형사합의';
+      return { room: room.split(',')[0].trim(), short: nm[1].replace(/\s/g, ''), field: nm[2].replace(/[,.]\s*/g, ' · '), kind: kind };
+    });
+  }
 
   var now = kstNow(), today = ymd(now), nowMin = now.getHours() * 60 + now.getMinutes();
 
@@ -180,7 +206,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
       rows.push(['음악회', (s.date === today ? '오늘 ' : label(s.date) + ' ') + esc(s.title)]);
     }
     var wd = now.getDay();
-    rows.push(['재판', wd >= 1 && wd <= 5 ? '평일이라 법원에서 재판이 열려요' : '주말이라 재판이 없어요']);
+    var court = d.court || {}, benches = benchesOn(court.benches || [], wd);
+    rows.push(['재판', benches.length ? '형사 재판부 ' + benches.length + '곳이 열려요' : '주말이라 재판이 없어요']);
     var toWed = (3 - wd + 7) % 7;
     rows.push(['수요일', toWed === 0 ? '오늘은 문화가 있는 날이에요 (영화·공연·전시 할인)' : toWed + '일 뒤 문화가 있는 날이에요']);
     document.getElementById('today').innerHTML = rows.map(function (r) {
@@ -212,6 +239,21 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
       return '<li><span class="t">' + label(x.date).split(' ')[0] + '</span><span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a>' +
         (x.tuesday ? '<span class="badge">무료·선착순</span>' : '') + '<br><span class="sub">' + esc(x.when) + ' · ' + esc(x.place) + '</span></span></li>';
     }).join('') || '<li><span></span><span class="m muted">올라온 공연이 없어요.</span></li>';
+
+    // 재판
+    var groups = {};
+    benches.forEach(function (b) { (groups[b.kind] = groups[b.kind] || []).push(b); });
+    document.getElementById('court-today').innerHTML = benches.length ? ['형사합의', '형사단독', '형사항소'].filter(function (k) { return groups[k]; }).map(function (k) {
+      return '<div class="day is-today"><h3>오늘 열리는 ' + k + ' · ' + {'형사합의': '무거운 사건', '형사단독': '판사 1명', '형사항소': '2심'}[k] + '</h3><ul class="rooms">' + groups[k].map(function (b) {
+        return '<li><b>' + esc(b.room) + '</b><span>' + esc(b.short) + '</span><span class="muted">' + esc(b.field) + '</span></li>';
+      }).join('') + '</ul></div>';
+    }).join('') : '<p class="muted">오늘은 재판이 없어요.</p>';
+    document.getElementById('court-hot').innerHTML = (court.hot || []).filter(function (h) { return h.date >= today; }).map(function (h) {
+      var open = h.status === '진행예정';
+      return '<li><span class="t">' + label(h.date).split(' ')[0] + '</span><span class="m"><b>' + esc(h.title) + '</b>' +
+        '<br><span class="sub">' + h.time + ' · ' + esc(h.bench) + ' · 방청권 ' + esc(h.seats) + '장<br>' +
+        (open ? '<a href="https://seoul.scourt.go.kr/attend/AttendList.work">온라인 신청</a> ' + esc(h.apply) : '신청 마감(' + esc(h.status) + ')') + '</span></span></li>';
+    }).join('') || '<li><span></span><span class="m muted">지금 올라온 재판이 없어요.</span></li>';
 
     // 포스트크로싱
     if (d.postcrossing && d.postcrossing.traveling) {
