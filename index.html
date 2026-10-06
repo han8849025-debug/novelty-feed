@@ -6,165 +6,337 @@
 <title>새로움 공급원</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Gothic+A1:wght@400;500;700;800&display=swap">
 <style>
 :root {
-  --paper: #F1F3EE; --card: #FAFBF8; --ink: #1B2320; --muted: #59645F; --rule: #D3D9D2;
-  --accent: #1D7A4C; --accent-soft: #E0ECE4; --warm: #9E6410; --warm-soft: #F3E7D2;
-  --f-display: "Hahmlet", "Noto Serif KR", serif;
-  --f-body: "IBM Plex Sans KR", "Malgun Gothic", sans-serif;
-  --f-data: "IBM Plex Mono", ui-monospace, Consolas, monospace;
+  --bg: #F2F4F7; --panel: #FFFFFF; --ink: #16233A; --muted: #5D6B80; --line: #D5DCE5;
+  --needle: #FFC700; --strip: #16233A; --strip-ink: #F2F4F7;
+  --film: #3B5BDB; --music: #0B8A63; --court: #C92A2A; --geo: #7048E8;
+  --f-title: "Black Han Sans", "Gothic A1", sans-serif;
+  --f: "Gothic A1", "Malgun Gothic", sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #111614; --card: #171E1B; --ink: #E3E9E5; --muted: #9DA9A3; --rule: #2B3430;
-    --accent: #4FC08B; --accent-soft: #1A2B23; --warm: #E0A650; --warm-soft: #33281A; color-scheme: dark;
+    --bg: #0E1626; --panel: #16213A; --ink: #E6ECF5; --muted: #9AA8BE; --line: #26334F;
+    --strip: #1D2A47; --strip-ink: #E6ECF5;
+    --film: #7D95F5; --music: #3CC79A; --court: #F07171; --geo: #A48BF5; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #111614; --card: #171E1B; --ink: #E3E9E5; --muted: #9DA9A3; --rule: #2B3430;
-  --accent: #4FC08B; --accent-soft: #1A2B23; --warm: #E0A650; --warm-soft: #33281A; color-scheme: dark;
+  --bg: #0E1626; --panel: #16213A; --ink: #E6ECF5; --muted: #9AA8BE; --line: #26334F;
+  --strip: #1D2A47; --strip-ink: #E6ECF5;
+  --film: #7D95F5; --music: #3CC79A; --court: #F07171; --geo: #A48BF5; color-scheme: dark;
 }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--paper); color: var(--ink); font: 15px/1.6 var(--f-body);
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--bg); color: var(--ink); font: 400 15px/1.6 var(--f);
   padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom); }
-a { color: var(--accent); }
-.wrap { max-width: 720px; margin: 0 auto; padding: 24px 16px 64px; display: grid; gap: 32px; }
-h1 { font: 700 clamp(1.9rem, 7vw, 2.5rem)/1.15 var(--f-display); margin: 0; }
-h2 { font: 700 1.2rem/1.3 var(--f-display); margin: 0; }
-.eyebrow { font: 12px var(--f-data); color: var(--muted); margin: 0 0 6px; }
+a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--film); outline-offset: 2px; border-radius: 4px; }
+.wrap { max-width: 640px; margin: 0 auto; padding: 20px 16px 72px; }
 .muted { color: var(--muted); }
-section { display: grid; gap: 12px; }
-.card { background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 16px; }
 
-/* 오늘 */
-.today { display: grid; gap: 10px; }
-.today .row { display: grid; grid-template-columns: 4.5em minmax(0,1fr); gap: 10px; align-items: baseline; }
-.today .k { font: 600 12.5px var(--f-body); color: var(--muted); }
-.today .v { min-width: 0; }
+/* 머리 */
+.top { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+h1 { font: 400 1.6rem/1 var(--f-title); margin: 0; }
+.stamp { font-size: 12.5px; color: var(--muted); }
+
+/* 오늘 시간 막대 */
+.day { margin: 22px -16px 0; padding: 22px 16px 20px; background: var(--strip); color: var(--strip-ink); }
+@media (min-width: 672px) { .day { margin-inline: 0; border-radius: 16px; padding-inline: 22px; } }
+.clock { display: flex; align-items: baseline; gap: 14px; flex-wrap: wrap; }
+.clock b { font: 800 clamp(3.4rem, 17vw, 5rem)/.9 var(--f); letter-spacing: -.04em; font-variant-numeric: tabular-nums; }
+.clock span { font-size: 15px; opacity: .75; }
+.bar { position: relative; height: 50px; margin-top: 18px; }
+.bar .rail, .bar .past { position: absolute; left: 0; top: 18px; height: 2px; }
+.bar .rail { right: 0; background: color-mix(in srgb, var(--strip-ink) 25%, transparent); }
+.bar .past { background: color-mix(in srgb, var(--strip-ink) 75%, transparent); }
+.bar .hr { position: absolute; top: 30px; transform: translateX(-50%); font-size: 11.5px; opacity: .6; font-variant-numeric: tabular-nums; }
+.bar .tick { position: absolute; top: 23px; width: 1px; height: 4px; background: color-mix(in srgb, var(--strip-ink) 40%, transparent); }
+.bar .ev { position: absolute; top: 11px; width: 16px; height: 16px; margin-left: -8px; border-radius: 50%; border: 3px solid var(--strip); }
+.bar .ev.done { opacity: .35; }
+.bar .needle { position: absolute; top: 1px; width: 3px; height: 36px; margin-left: -1.5px; background: var(--needle); border-radius: 2px; }
+.next { margin: 4px 0 0; font-size: 15px; line-height: 1.5; }
+.next b { font-size: 18px; }
+.next small { display: block; font-size: 13px; opacity: .7; margin-top: 2px; }
+.c-film { background: var(--film); } .c-music { background: var(--music); } .c-court { background: var(--court); } .c-geo { background: var(--geo); }
+.day .c-film { background: #7D95F5; } .day .c-music { background: #3CC79A; } .day .c-court { background: #F07171; }
+
+/* 구역 */
+section { margin-top: 44px; }
+h2 { font: 800 1.15rem/1.3 var(--f); margin: 0 0 4px; }
+.lead { margin: 0 0 14px; font-size: 14px; color: var(--muted); max-width: 60ch; }
+.sub-h { font: 700 13.5px/1.3 var(--f); color: var(--muted); margin: 20px 0 8px; }
+
+/* 필터 */
+.chips { display: flex; gap: 6px; flex-wrap: wrap; margin: 12px 0 16px; }
+.chips button { font: 700 13.5px/1 var(--f); padding: 9px 14px; border-radius: 999px; cursor: pointer;
+  background: transparent; color: var(--ink); border: 1.5px solid var(--line); display: inline-flex; align-items: center; gap: 7px; }
+.chips button i { width: 8px; height: 8px; border-radius: 50%; }
+.chips button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: var(--bg); }
+
+/* 시간표 */
+.sched { display: grid; gap: 24px; }
+.sched h3 { font: 700 13.5px/1 var(--f); margin: 0 0 8px; color: var(--muted); }
+.sched h3.today { color: var(--ink); }
+.sched ul, .caches, .rooms, .etc { list-style: none; margin: 0; padding: 0; border-top: 1px solid var(--line); }
+.sched li { display: grid; grid-template-columns: 3.4em 4px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.sched li.done { opacity: .4; }
+.sched .t { font: 700 15px/1.4 var(--f); font-variant-numeric: tabular-nums; }
+.sched .bar4 { border-radius: 2px; }
+.sched .m { min-width: 0; line-height: 1.45; }
+.sched .m a, .caches a { font-weight: 700; text-decoration: none; overflow-wrap: anywhere; }
+.sched .m a:hover, .caches a:hover { text-decoration: underline; }
+.sub { display: block; font-size: 13px; color: var(--muted); margin-top: 2px; }
+.more { margin-top: 12px; font: 700 14px/1 var(--f); padding: 11px 16px; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; }
 
 /* 라디오 */
-.radio { display: grid; gap: 12px; }
-.radio .now { display: grid; gap: 2px; min-height: 3.2em; }
-.radio .name { font: 600 1.05rem/1.35 var(--f-body); overflow-wrap: anywhere; }
-.btns { display: flex; flex-wrap: wrap; gap: 8px; }
-button { font: 600 14px/1 var(--f-body); border-radius: 999px; padding: 11px 18px; cursor: pointer;
-  border: 1px solid var(--accent); background: var(--accent); color: var(--paper); }
-button.ghost { background: transparent; color: var(--accent); }
-button:disabled { opacity: .5; cursor: default; }
-button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
-.eq { display: inline-flex; gap: 2px; align-items: flex-end; height: 12px; margin-right: 6px; vertical-align: -1px; }
-.eq i { width: 3px; background: var(--accent); height: 4px; }
-.playing .eq i { animation: eq .9s infinite ease-in-out; }
-.playing .eq i:nth-child(2) { animation-delay: .2s; } .playing .eq i:nth-child(3) { animation-delay: .4s; }
-@keyframes eq { 50% { height: 12px; } }
-@media (prefers-reduced-motion: reduce) { .playing .eq i { animation: none; height: 10px; } }
+.radio { display: flex; align-items: center; gap: 14px; background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 14px; }
+.radio .play { flex: none; width: 52px; height: 52px; border-radius: 50%; border: 0; cursor: pointer; background: var(--ink); color: var(--bg); display: grid; place-items: center; }
+.radio .play svg { width: 22px; height: 22px; }
+.radio .info { min-width: 0; flex: 1; }
+.radio .name { font-weight: 700; overflow-wrap: anywhere; line-height: 1.35; }
+.radio .where { font-size: 13px; color: var(--muted); }
+.radio .skip { flex: none; font: 700 13.5px/1 var(--f); padding: 10px 12px; border-radius: 999px; border: 1.5px solid var(--line); background: transparent; color: var(--ink); cursor: pointer; }
+.radio .skip:disabled { opacity: .4; cursor: default; }
 
-/* 일정 목록 */
-.days { display: grid; gap: 14px; }
-.day h3 { font: 600 13px var(--f-data); color: var(--muted); margin: 0 0 6px; }
-.day.is-today h3 { color: var(--accent); }
-.list { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
-.list li { display: grid; grid-template-columns: 3.4em minmax(0,1fr); gap: 10px; align-items: baseline;
-  background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 10px 12px; }
-.list .t { font: 500 13px var(--f-data); font-variant-numeric: tabular-nums; }
-.list .m { min-width: 0; }
-.list .m a { font-weight: 600; text-decoration: none; color: var(--ink); }
-.list .m a:hover { text-decoration: underline; }
-.list .sub { font-size: 12.5px; color: var(--muted); }
-.list li.past { opacity: .45; }
-.badge { font: 600 11px var(--f-body); background: var(--accent-soft); color: var(--accent); border-radius: 4px; padding: 2px 6px; margin-left: 6px; white-space: nowrap; }
-.more { justify-self: start; }
+/* 지오캐싱 */
+.logs { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.logs li { border-left: 3px solid var(--geo); padding: 2px 0 2px 12px; }
+.logs q { quotes: none; display: block; font-size: 14.5px; line-height: 1.5; overflow-wrap: anywhere; }
+.logs .who { font-size: 12.5px; color: var(--muted); }
+.caches li { display: grid; grid-template-columns: 3.4em minmax(0, 1fr); gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.caches .km { font: 700 14px/1.45 var(--f); font-variant-numeric: tabular-nums; color: var(--geo); }
+.lvl { display: inline-flex; gap: 2px; vertical-align: 1px; margin: 0 6px 0 3px; }
+.lvl i { width: 6px; height: 6px; border-radius: 1px; background: var(--line); }
+.lvl i.on { background: var(--geo); }
+.miss { color: var(--court); }
 
-.rooms { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 6px; }
-.rooms li { background: var(--card); border: 1px solid var(--rule); border-radius: 8px; padding: 8px 10px; line-height: 1.4; min-width: 0; }
-.rooms b { font: 600 14px var(--f-data); }
-.rooms span { display: block; font-size: 12.5px; }
+/* 법정 */
+.rooms { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 0 14px; }
+.rooms li { padding: 9px 0; border-bottom: 1px solid var(--line); line-height: 1.35; min-width: 0; }
+.rooms b { font: 800 15px/1.3 var(--f); font-variant-numeric: tabular-nums; }
+.rooms span { display: block; font-size: 12.5px; color: var(--muted); }
 
 /* 엽서 */
-.big { font: 700 clamp(1.6rem, 8vw, 2.2rem)/1.1 var(--f-data); font-variant-numeric: tabular-nums; }
+.post { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.post b { font: 800 clamp(2rem, 10vw, 2.8rem)/1 var(--f); letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
 
 /* 그 외 */
-.others { display: grid; gap: 8px; }
-.others .card { display: grid; gap: 4px; padding: 14px 16px; }
-.others b { font-size: 15px; }
-.others p { margin: 0; font-size: 14px; }
-.foot { font: 12px var(--f-data); color: var(--muted); margin: 0; }
+.etc li { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.etc b { display: block; }
+.etc p { margin: 2px 0 0; font-size: 14px; color: var(--muted); }
+.foot { margin-top: 44px; font-size: 12.5px; color: var(--muted); }
 </style>
 </head>
 <body>
 <main class="wrap">
-  <header>
-    <p class="eyebrow" id="updated">불러오는 중…</p>
+  <div class="top">
     <h1>새로움 공급원</h1>
-  </header>
+    <span class="stamp" id="updated"></span>
+  </div>
 
-  <section aria-labelledby="today-h">
-    <h2 id="today-h">오늘</h2>
-    <div class="card today" id="today"></div>
+  <div class="day" aria-label="오늘">
+    <div class="clock"><b id="clock">--:--</b><span id="dateline"></span></div>
+    <div class="bar" id="bar" aria-hidden="true"></div>
+    <p class="next" id="next">불러오는 중</p>
+  </div>
+
+  <section aria-labelledby="sched-h">
+    <h2 id="sched-h">다가오는 일정</h2>
+    <div class="chips" id="chips" role="group" aria-label="종류 거르기"></div>
+    <div class="sched" id="sched"></div>
+    <button type="button" class="more" id="sched-more" hidden>다음 날들 더 보기</button>
   </section>
 
   <section aria-labelledby="radio-h">
     <h2 id="radio-h">지금 세계 어딘가의 라디오</h2>
-    <div class="card radio" id="radio">
-      <div class="now"><span class="name" id="r-name">버튼을 누르면 아무 나라 방송이나 틀어요</span><span class="muted" id="r-where"></span></div>
-      <div class="btns">
-        <button type="button" id="r-next">아무 데나 틀기</button>
-        <button type="button" class="ghost" id="r-stop" disabled>멈추기</button>
-      </div>
+    <p class="lead">누를 때마다 아무 나라에서 지금 나오는 방송을 틀어요.</p>
+    <div class="radio">
+      <button type="button" class="play" id="r-play" aria-label="틀기">
+        <svg viewBox="0 0 24 24" fill="currentColor" id="r-icon"><path d="M8 5v14l11-7z"/></svg>
+      </button>
+      <div class="info"><div class="name" id="r-name">아직 안 틀었어요</div><div class="where" id="r-where"></div></div>
+      <button type="button" class="skip" id="r-skip" disabled>다른 방송</button>
       <audio id="r-audio" preload="none"></audio>
     </div>
   </section>
 
-  <section aria-labelledby="kofa-h">
-    <h2 id="kofa-h">시네마테크 KOFA 상영표 <span class="muted" style="font:400 13px var(--f-body)">무료 · 상암</span></h2>
-    <div class="days" id="kofa"></div>
-    <button type="button" class="ghost more" id="kofa-more" hidden>더 보기</button>
-  </section>
-
-  <section aria-labelledby="snu-h">
-    <h2 id="snu-h">서울대 음대 공연</h2>
-    <ul class="list" id="snu"></ul>
+  <section aria-labelledby="geo-h">
+    <h2 id="geo-h">봉천역 근처 지오캐시</h2>
+    <p class="lead" id="geo-lead">사람들이 숨겨둔 작은 통이에요.</p>
+    <div class="sub-h">최근에 다녀간 사람</div>
+    <ul class="logs" id="geo-logs"></ul>
+    <div class="sub-h">가까운 순</div>
+    <ul class="caches" id="geo-list"></ul>
+    <button type="button" class="more" id="geo-more" hidden>더 보기</button>
   </section>
 
   <section aria-labelledby="court-h">
-    <h2 id="court-h">재판 방청 <span class="muted" style="font:400 13px var(--f-body)">서울중앙지법 · 교대역</span></h2>
-    <p class="muted" style="margin:0;font-size:14px">그날 어떤 사건을 하는지는 법정 입구 '오늘의 재판안내'에 붙어 있어요. 보통 오전 10시, 오후 2시에 시작해요.</p>
-    <div class="day"><h3>방청권이 있어야 들어가는 재판</h3><ul class="list" id="court-hot"></ul></div>
-    <div class="days" id="court-today"></div>
+    <h2 id="court-h">오늘 열리는 형사 법정</h2>
+    <p class="lead">서울중앙지법(교대역). 법정마다 그날 무슨 사건을 하는지는 입구의 '오늘의 재판안내'에 붙어 있어요. 보통 오전 10시, 오후 2시에 시작해요.</p>
+    <div id="court-today"></div>
   </section>
 
   <section aria-labelledby="pc-h">
     <h2 id="pc-h">포스트크로싱</h2>
-    <div class="card">
-      <div class="big" id="pc-traveling">–</div>
-      <p class="muted" style="margin:4px 0 0">장이 지금 지구 어딘가를 이동 중이에요. <a href="https://www.postcrossing.com/">postcrossing.com</a></p>
-    </div>
+    <div class="post"><b id="pc-traveling">–</b><span>장이 지금 지구 어딘가를 이동 중이에요</span></div>
+    <p class="lead" style="margin-top:6px">가입하면 모르는 나라 사람에게 엽서를 보내고, 또 다른 모르는 사람에게서 받아요. <a href="https://www.postcrossing.com/">postcrossing.com</a></p>
   </section>
 
   <section aria-labelledby="etc-h">
     <h2 id="etc-h">언제든 할 수 있는 것</h2>
-    <div class="others">
-      <div class="card"><b>지하철 랜덤 하차</b><p>안 가본 역에 내려서 돌아다니고, 내린 역을 지도에 모아요.</p></div>
-      <div class="card"><b>자연 관찰 기록</b><p>관악산·서울대 캠퍼스에서 본 새·곤충·풀을 <a href="https://www.naturing.net/">네이처링</a>에 올려요.</p></div>
-      <div class="card"><b>지오캐싱</b><p>숨겨진 작은 통을 앱 지도로 찾아가요. <a href="https://www.geocaching.com/">geocaching.com</a></p></div>
-      <div class="card"><b>Slowly</b><p>거리만큼 늦게 도착하는 펜팔 앱이에요. <a href="https://www.getslowly.com/ko/">getslowly.com</a></p></div>
-    </div>
+    <ul class="etc">
+      <li><b>지하철 랜덤 하차</b><p>안 가본 역에 내려서 돌아다니고, 내린 역을 지도에 모아요.</p></li>
+      <li><b>네이처링</b><p>관악산이나 서울대 캠퍼스에서 본 새, 곤충, 풀을 찍어 올려요. <a href="https://www.naturing.net/">naturing.net</a></p></li>
+      <li><b>Slowly</b><p>거리만큼 늦게 도착하는 펜팔 앱이에요. <a href="https://www.getslowly.com/ko/">getslowly.com</a></p></li>
+    </ul>
   </section>
 
-  <p class="foot">영화·공연·재판·엽서 정보는 3시간마다 원본 사이트에서 새로 가져와요. 라디오는 누를 때마다 실시간이에요.</p>
+  <p class="foot">영화, 공연, 재판, 엽서 정보는 3시간마다, 지오캐시는 12시간마다 원래 사이트에서 새로 가져와요.</p>
 </main>
 
 <script>
 (function () {
   var WD = ['일', '월', '화', '수', '목', '금', '토'];
-  function kstNow() { return new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000); }
-  function ymd(d) { return d.getFullYear() + '-' + String(d.getMonth() + 1).padStart(2, '0') + '-' + String(d.getDate()).padStart(2, '0'); }
+  var CAT = { film: '영화', music: '음악', court: '재판' };
+  function $(id) { return document.getElementById(id); }
+  function pad(n) { return String(n).padStart(2, '0'); }
+  function kst() { return new Date(Date.now() + (new Date().getTimezoneOffset() + 540) * 60000); }
+  function ymd(d) { return d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate()); }
   function parse(s) { var p = s.split('-'); return new Date(+p[0], p[1] - 1, +p[2]); }
-  function label(s) { var d = parse(s); return (d.getMonth() + 1) + '/' + d.getDate() + ' ' + WD[d.getDay()]; }
-  function esc(s) { return String(s || '').replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
-  function hm(s) { var p = s.split(':'); return +p[0] * 60 + +p[1]; }
+  function md(s) { var d = parse(s); return (d.getMonth() + 1) + '월 ' + d.getDate() + '일 ' + WD[d.getDay()] + '요일'; }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]; }); }
+  function mins(t) { if (!t) return null; var p = t.split(':'); return +p[0] * 60 + +p[1]; }
+  function ago(s, today) { var n = Math.round((parse(today) - parse(s)) / 864e5); return n <= 0 ? '오늘' : n === 1 ? '어제' : n < 31 ? n + '일 전' : n < 365 ? Math.round(n / 30) + '달 전' : Math.round(n / 365) + '년 전'; }
+  function dur(m) { var h = Math.floor(m / 60), r = m % 60; return (h ? h + '시간' + (r ? ' ' : '') : '') + (r || !h ? r + '분' : ''); }
+
+  // 서울대 공연 시각 문자열 → HH:MM
+  function snuTime(w) {
+    var x;
+    if ((x = w.match(/(\d{1,2}):(\d{2})\s*(PM)?/i))) { var h = +x[1]; if (x[3] && h < 12) h += 12; return pad(h) + ':' + x[2]; }
+    if ((x = w.match(/(\d{1,2})\s*PM/i))) return pad(+x[1] + 12) + ':00';
+    if ((x = w.match(/오후\s*(\d+)시/))) return pad(+x[1] + 12) + ':00';
+    return null;
+  }
+
+  var now = kst(), today = ymd(now), nowMin = now.getHours() * 60 + now.getMinutes();
+  function tickClock() { var n = kst(); $('clock').textContent = pad(n.getHours()) + ':' + pad(n.getMinutes()); }
+  tickClock(); setInterval(tickClock, 15000);
+  $('dateline').textContent = (now.getMonth() + 1) + '월 ' + now.getDate() + '일 ' + WD[now.getDay()] + '요일';
+
+  fetch('data.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(render).catch(function () {
+    $('next').textContent = '정보를 못 불러왔어요. 인터넷 연결을 확인하고 다시 열어 주세요.';
+  });
+
+  function render(d) {
+    $('updated').textContent = d.updated.slice(5, 10).replace('-', '/') + ' ' + d.updated.slice(11) + ' 갱신';
+
+    // 일정 합치기
+    var items = [];
+    (d.kofa || []).forEach(function (x) {
+      items.push({ cat: 'film', date: x.date, time: x.time, title: x.title, url: x.url,
+        sub: [x.director, x.year, x.runtime].filter(Boolean).join(', ') + ' / 상암 KOFA ' + x.room + (x.program ? ' / ' + x.program : '') });
+    });
+    (d.snu || []).forEach(function (x) {
+      items.push({ cat: 'music', date: x.date, time: snuTime(x.when), title: x.title, url: x.url,
+        sub: x.place + (x.tuesday ? ' / 무료, 선착순 입장' : '') });
+    });
+    var court = d.court || {};
+    (court.hot || []).forEach(function (h) {
+      var open = h.status === '진행예정';
+      items.push({ cat: 'court', date: h.date, time: h.time, title: h.title + ' 재판', url: 'https://seoul.scourt.go.kr/attend/AttendList.work',
+        sub: '서울중앙지법 ' + h.bench + ' / 방청권 ' + h.seats + '장, ' + (open ? '온라인 추첨 신청 ' + h.apply : '신청 마감') });
+    });
+    items = items.filter(function (x) { return x.date >= today; });
+    items.sort(function (a, b) { return (a.date + (a.time || '99')).localeCompare(b.date + (b.time || '99')); });
+
+    // 오늘 막대 (9시~24시)
+    var START = 9, END = 24, span = (END - START) * 60;
+    function pos(m) { return Math.max(0, Math.min(100, (m - START * 60) / span * 100)); }
+    var bar = '<div class="rail"></div><div class="past" style="width:' + pos(nowMin) + '%"></div>';
+    for (var h = START; h <= END; h++) {
+      bar += '<span class="tick" style="left:' + pos(h * 60) + '%"></span>';
+      if ((h - START) % 3 === 0) bar += '<span class="hr" style="left:' + pos(h * 60) + '%">' + h + '</span>';
+    }
+    items.filter(function (x) { return x.date === today && x.time; }).forEach(function (x) {
+      bar += '<span class="ev c-' + x.cat + (mins(x.time) <= nowMin ? ' done' : '') + '" style="left:' + pos(mins(x.time)) + '%"></span>';
+    });
+    bar += '<span class="needle" style="left:' + pos(nowMin) + '%"></span>';
+    $('bar').innerHTML = bar;
+
+    var up = items.filter(function (x) { return x.date > today || (x.time && mins(x.time) > nowMin); });
+    if (up.length) {
+      var n = up[0];
+      var when = n.date === today ? n.time + ', ' + dur(mins(n.time) - nowMin) + ' 뒤' : md(n.date) + ' ' + (n.time || '');
+      $('next').innerHTML = '다음은 ' + esc(when) + '<br><b>' + esc(n.title) + '</b><small>' + esc(n.sub) + '</small>';
+    } else $('next').textContent = '올라온 일정이 없어요.';
+
+    // 시간표
+    var filter = 'all', limit = 4, counts = { all: items.length };
+    items.forEach(function (x) { counts[x.cat] = (counts[x.cat] || 0) + 1; });
+    $('chips').innerHTML = ['all', 'film', 'music', 'court'].filter(function (k) { return counts[k]; }).map(function (k) {
+      return '<button type="button" data-k="' + k + '" aria-pressed="' + (k === 'all') + '">' + (k === 'all' ? '전체 ' : '<i class="c-' + k + '"></i>' + CAT[k] + ' ') + counts[k] + '</button>';
+    }).join('');
+    function drawSched() {
+      var list = items.filter(function (x) { return filter === 'all' || x.cat === filter; }), days = [];
+      list.forEach(function (x) { if (days.indexOf(x.date) < 0) days.push(x.date); });
+      $('sched').innerHTML = days.slice(0, limit).map(function (day) {
+        return '<div><h3 class="' + (day === today ? 'today' : '') + '">' + (day === today ? '오늘, ' : '') + md(day) + '</h3><ul>' +
+          list.filter(function (x) { return x.date === day; }).map(function (x) {
+            var done = day === today && x.time && mins(x.time) <= nowMin;
+            return '<li class="' + (done ? 'done' : '') + '"><span class="t">' + (x.time || '') + '</span><span class="bar4 c-' + x.cat + '"></span>' +
+              '<span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a><span class="sub">' + esc(x.sub) + '</span></span></li>';
+          }).join('') + '</ul></div>';
+      }).join('') || '<p class="muted">올라온 일정이 없어요.</p>';
+      $('sched-more').hidden = days.length <= limit;
+    }
+    $('chips').onclick = function (e) {
+      var b = e.target.closest('button'); if (!b) return;
+      filter = b.dataset.k; limit = 4;
+      [].forEach.call($('chips').children, function (c) { c.setAttribute('aria-pressed', c === b); });
+      drawSched();
+    };
+    $('sched-more').onclick = function () { limit += 7; drawSched(); };
+    drawSched();
+
+    // 지오캐싱
+    var geo = d.geo || {}, caches = geo.caches || [];
+    var free = caches.filter(function (c) { return !c.premium; }), paid = caches.length - free.length;
+    $('geo-lead').textContent = '사람들이 숨겨둔 작은 통이에요. 3.5km 안에 ' + caches.length + '개가 있고' +
+      (paid ? ', 그중 ' + paid + '개는 유료 회원만 볼 수 있어서 아래엔 ' + free.length + '개만 보여요' : '') + '. 정확한 좌표는 geocaching.com에 무료로 가입하면 보여요.';
+    $('geo-logs').innerHTML = (geo.logs || []).slice(0, 4).map(function (l) {
+      var found = l.type === 'Found it' || l.type === 'Attended';
+      return '<li><q>' + esc(l.text || (found ? '찾았어요' : '못 찾았어요')) + '</q><span class="who">' + ago(l.date, today) + ', ' + esc(l.user) + '님이 ' +
+        '<a href="' + esc(l.url) + '">' + esc(l.name) + '</a>' + (found ? ' 찾음' : ' <span class="miss">못 찾음</span>') + '</span></li>';
+    }).join('') || '<li class="muted">기록이 없어요.</li>';
+    function lvl(v) { v = parseFloat(v) || 0; var s = ''; for (var i = 1; i <= 5; i++) s += '<i class="' + (i <= v ? 'on' : '') + '"></i>'; return '<span class="lvl" role="img" aria-label="5단계 중 ' + v + '">' + s + '</span>'; }
+    var geoLimit = 8;
+    function drawGeo() {
+      $('geo-list').innerHTML = free.slice(0, geoLimit).map(function (c) {
+        var last = c.last ? ago(c.last.date, today) + (c.last.type === 'Found it' ? ' 마지막으로 찾음' : ' <span class="miss">못 찾았다는 기록</span>') : '아직 기록 없음';
+        return '<li><span class="km">' + c.km + 'km</span><span><a href="' + esc(c.url) + '">' + esc(c.name) + '</a>' +
+          '<span class="sub">' + esc(c.type) + ', 찾기' + lvl(c.difficulty) + '걷기' + lvl(c.terrain) + '</span>' +
+          '<span class="sub">' + c.found + '명이 찾음, ' + last + '</span></span></li>';
+      }).join('');
+      $('geo-more').hidden = free.length <= geoLimit;
+    }
+    $('geo-more').onclick = function () { geoLimit = free.length; drawGeo(); };
+    drawGeo();
+
+    // 법정
+    var benches = benchesOn(court.benches || [], now.getDay()), groups = {};
+    benches.forEach(function (b) { (groups[b.kind] = groups[b.kind] || []).push(b); });
+    $('court-today').innerHTML = benches.length ? [['형사합의', '판사 3명이 맡는 무거운 사건'], ['형사단독', '판사 1명'], ['형사항소', '2심']].filter(function (k) { return groups[k[0]]; }).map(function (k) {
+      return '<div class="sub-h">' + k[0] + ', ' + k[1] + '</div><ul class="rooms">' + groups[k[0]].map(function (b) {
+        return '<li><b>' + esc(b.room) + '</b><span>' + esc(b.short) + '</span><span>' + esc(b.field) + '</span></li>';
+      }).join('') + '</ul>';
+    }).join('') : '<p class="muted">주말이라 재판이 없어요. 월요일에 다시 열려요.</p>';
+
+    // 엽서
+    if (d.postcrossing && d.postcrossing.traveling) $('pc-traveling').textContent = d.postcrossing.traveling.toLocaleString('ko-KR');
+  }
 
   function benchesOn(list, wd) {
     var day = WD[wd];
@@ -177,99 +349,15 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
       if (m) room = m[1];
       var nm = b.name.match(/^(.*?형사(?:부|단독))\s*\((.*)\)\)?$/) || [0, b.name, ''];
       var kind = /단독/.test(b.name) ? '형사단독' : /^제\d+-/.test(b.name) || /항소/.test(b.name) ? '형사항소' : '형사합의';
-      return { room: room.split(',')[0].trim(), short: nm[1].replace(/\s/g, ''), field: nm[2].replace(/[,.]\s*/g, ' · '), kind: kind };
+      return { room: room.split(',')[0].trim(), short: nm[1].replace(/\s/g, ''), field: nm[2].replace(/[,.]\s*/g, ', '), kind: kind };
     });
   }
 
-  var now = kstNow(), today = ymd(now), nowMin = now.getHours() * 60 + now.getMinutes();
-
-  fetch('data.json?t=' + Date.now()).then(function (r) { return r.json(); }).then(render).catch(function () {
-    document.getElementById('updated').textContent = '데이터를 못 불러왔어요';
-  });
-
-  function render(d) {
-    document.getElementById('updated').textContent = d.updated + ' 기준';
-
-    // 오늘
-    var rows = [];
-    var kofa = (d.kofa || []).filter(function (x) { return x.date >= today; });
-    var todays = kofa.filter(function (x) { return x.date === today && hm(x.time) > nowMin; });
-    if (todays.length) {
-      rows.push(['영화', todays.map(function (x) { return x.time + ' 《' + esc(x.title) + '》'; }).join('<br>')]);
-    } else if (kofa.length) {
-      var n = kofa[0];
-      rows.push(['영화', '오늘 남은 상영 없음 · 다음은 ' + label(n.date) + ' ' + n.time + ' 《' + esc(n.title) + '》']);
-    }
-    var snu = (d.snu || []).filter(function (x) { return x.date >= today; });
-    if (snu.length) {
-      var s = snu[0];
-      rows.push(['음악회', (s.date === today ? '오늘 ' : label(s.date) + ' ') + esc(s.title)]);
-    }
-    var wd = now.getDay();
-    var court = d.court || {}, benches = benchesOn(court.benches || [], wd);
-    rows.push(['재판', benches.length ? '형사 재판부 ' + benches.length + '곳이 열려요' : '주말이라 재판이 없어요']);
-    var toWed = (3 - wd + 7) % 7;
-    rows.push(['수요일', toWed === 0 ? '오늘은 문화가 있는 날이에요 (영화·공연·전시 할인)' : toWed + '일 뒤 문화가 있는 날이에요']);
-    document.getElementById('today').innerHTML = rows.map(function (r) {
-      return '<div class="row"><span class="k">' + r[0] + '</span><span class="v">' + r[1] + '</span></div>';
-    }).join('');
-
-    // KOFA
-    var byDay = {};
-    kofa.forEach(function (x) { (byDay[x.date] = byDay[x.date] || []).push(x); });
-    var days = Object.keys(byDay).sort();
-    var box = document.getElementById('kofa'), more = document.getElementById('kofa-more');
-    function drawKofa(limit) {
-      box.innerHTML = days.slice(0, limit).map(function (day) {
-        return '<div class="day' + (day === today ? ' is-today' : '') + '"><h3>' + label(day) + (day === today ? ' · 오늘' : '') + '</h3><ul class="list">' +
-          byDay[day].map(function (x) {
-            var past = day === today && hm(x.time) <= nowMin;
-            var sub = [x.director, x.year, x.runtime, x.room].filter(Boolean).join(' · ');
-            return '<li' + (past ? ' class="past"' : '') + '><span class="t">' + x.time + '</span><span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a>' +
-              '<br><span class="sub">' + esc(sub) + (x.program ? '<br>' + esc(x.program) : '') + '</span></span></li>';
-          }).join('') + '</ul></div>';
-      }).join('') || '<p class="muted">올라온 상영 일정이 없어요.</p>';
-      more.hidden = days.length <= limit;
-    }
-    drawKofa(3);
-    more.onclick = function () { drawKofa(days.length); };
-
-    // 서울대
-    document.getElementById('snu').innerHTML = snu.map(function (x) {
-      return '<li><span class="t">' + label(x.date).split(' ')[0] + '</span><span class="m"><a href="' + esc(x.url) + '">' + esc(x.title) + '</a>' +
-        (x.tuesday ? '<span class="badge">무료·선착순</span>' : '') + '<br><span class="sub">' + esc(x.when) + ' · ' + esc(x.place) + '</span></span></li>';
-    }).join('') || '<li><span></span><span class="m muted">올라온 공연이 없어요.</span></li>';
-
-    // 재판
-    var groups = {};
-    benches.forEach(function (b) { (groups[b.kind] = groups[b.kind] || []).push(b); });
-    document.getElementById('court-today').innerHTML = benches.length ? ['형사합의', '형사단독', '형사항소'].filter(function (k) { return groups[k]; }).map(function (k) {
-      return '<div class="day is-today"><h3>오늘 열리는 ' + k + ' · ' + {'형사합의': '무거운 사건', '형사단독': '판사 1명', '형사항소': '2심'}[k] + '</h3><ul class="rooms">' + groups[k].map(function (b) {
-        return '<li><b>' + esc(b.room) + '</b><span>' + esc(b.short) + '</span><span class="muted">' + esc(b.field) + '</span></li>';
-      }).join('') + '</ul></div>';
-    }).join('') : '<p class="muted">오늘은 재판이 없어요.</p>';
-    document.getElementById('court-hot').innerHTML = (court.hot || []).filter(function (h) { return h.date >= today; }).map(function (h) {
-      var open = h.status === '진행예정';
-      return '<li><span class="t">' + label(h.date).split(' ')[0] + '</span><span class="m"><b>' + esc(h.title) + '</b>' +
-        '<br><span class="sub">' + h.time + ' · ' + esc(h.bench) + ' · 방청권 ' + esc(h.seats) + '장<br>' +
-        (open ? '<a href="https://seoul.scourt.go.kr/attend/AttendList.work">온라인 신청</a> ' + esc(h.apply) : '신청 마감(' + esc(h.status) + ')') + '</span></span></li>';
-    }).join('') || '<li><span></span><span class="m muted">지금 올라온 재판이 없어요.</span></li>';
-
-    // 포스트크로싱
-    if (d.postcrossing && d.postcrossing.traveling) {
-      document.getElementById('pc-traveling').textContent = d.postcrossing.traveling.toLocaleString('ko-KR');
-    }
-  }
-
-  // 라디오 (radio-browser.info, 누를 때마다 무작위)
-  var audio = document.getElementById('r-audio'), card = document.getElementById('radio');
-  var nameEl = document.getElementById('r-name'), whereEl = document.getElementById('r-where');
-  var nextBtn = document.getElementById('r-next'), stopBtn = document.getElementById('r-stop');
-  var servers = ['de1', 'fi1', 'de2'];
-  var regionName = null;
-  try { regionName = new Intl.DisplayNames(['ko'], { type: 'region' }); } catch (e) {}
-  var queue = [];
-
+  // 라디오 (radio-browser.info)
+  var audio = $('r-audio'), play = $('r-play'), skip = $('r-skip'), icon = $('r-icon');
+  var servers = ['de1', 'fi1', 'de2'], queue = [], playing = false, busy = false, region = null;
+  try { region = new Intl.DisplayNames(['ko'], { type: 'region' }); } catch (e) {}
+  function setIcon(p) { icon.innerHTML = p ? '<path d="M6 5h4v14H6zM14 5h4v14h-4z"/>' : '<path d="M8 5v14l11-7z"/>'; play.setAttribute('aria-label', p ? '멈추기' : '틀기'); }
   function load(i) {
     i = i || 0;
     if (i >= servers.length) return Promise.reject();
@@ -277,28 +365,27 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
       .then(function (r) { return r.json(); }).catch(function () { return load(i + 1); });
   }
   function next(tries) {
-    tries = tries || 0;
-    nextBtn.disabled = true;
-    nameEl.textContent = '찾는 중…'; whereEl.textContent = '';
-    var p = queue.length ? Promise.resolve() : load().then(function (l) { queue = l || []; });
-    p.then(function () {
-      var st = queue.shift();
-      if (!st) throw 0;
+    busy = true; skip.disabled = true;
+    $('r-name').textContent = '방송 찾는 중'; $('r-where').textContent = '';
+    return (queue.length ? Promise.resolve() : load().then(function (l) { queue = l || []; })).then(function () {
+      var st = queue.shift(); if (!st) throw 0;
       audio.src = st.url_resolved || st.url;
-      var timeout = new Promise(function (_, no) { setTimeout(no, 8000); });
-      return Promise.race([audio.play(), timeout]).then(function () {
-        var country = st.countrycode && regionName ? regionName.of(st.countrycode) : st.country;
-        nameEl.innerHTML = '<span class="eq"><i></i><i></i><i></i></span>' + esc(st.name.trim());
-        whereEl.textContent = [country, st.state, st.tags ? st.tags.split(',').slice(0, 3).join(', ') : ''].filter(Boolean).join(' · ');
-        card.classList.add('playing'); stopBtn.disabled = false;
+      return Promise.race([audio.play(), new Promise(function (_, no) { setTimeout(no, 8000); })]).then(function () {
+        $('r-name').textContent = st.name.trim();
+        $('r-where').textContent = [st.countrycode && region ? region.of(st.countrycode) : st.country, st.state, st.tags ? st.tags.split(',').slice(0, 2).join(', ') : ''].filter(Boolean).join(', ');
+        playing = true; setIcon(true);
       });
     }).catch(function () {
       if (tries < 5) return next(tries + 1);
-      nameEl.textContent = '방송을 못 찾았어요. 다시 눌러 주세요';
-    }).then(function () { nextBtn.disabled = false; nextBtn.textContent = '다른 데 틀기'; });
+      $('r-name').textContent = '방송을 못 찾았어요. 다시 눌러 주세요';
+    }).then(function () { busy = false; skip.disabled = !playing; });
   }
-  nextBtn.onclick = function () { next(0); };
-  stopBtn.onclick = function () { audio.pause(); audio.removeAttribute('src'); card.classList.remove('playing'); stopBtn.disabled = true; nameEl.textContent = '멈췄어요'; whereEl.textContent = ''; };
+  play.onclick = function () {
+    if (busy) return;
+    if (playing) { audio.pause(); playing = false; setIcon(false); $('r-name').textContent = '멈췄어요'; $('r-where').textContent = ''; skip.disabled = true; }
+    else next(0);
+  };
+  skip.onclick = function () { if (!busy) next(0); };
 })();
 </script>
 </body>

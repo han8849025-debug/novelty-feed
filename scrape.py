@@ -196,19 +196,112 @@ def court():
     return {"benches": benches, "hot": hot}
 
 
+# ---------- 지오캐싱 (봉천역 근처) ----------
+HOME = (37.4824, 126.9418)  # 봉천역
+TYPES_KO = {
+    "Traditional Cache": "일반", "Multi-cache": "여러 단계", "Mystery Cache": "퍼즐",
+    "Unknown Cache": "퍼즐", "Letterbox Hybrid": "레터박스", "Wherigo Cache": "위리고(앱 게임)",
+    "Earthcache": "지형 관찰", "Virtual Cache": "가상(통 없음)", "Event Cache": "모임",
+    "Webcam Cache": "웹캠", "Mega-Event Cache": "큰 모임", "Cache In Trash Out Event": "청소 모임",
+}
+
+
+def geocaching():
+    import math
+    import time
+    opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor())
+    z, n = 15, 2 ** 15
+    lat0, lon0 = HOME
+    tx = int((lon0 + 180) / 360 * n)
+    ty = int((1 - math.asinh(math.tan(math.radians(lat0))) / math.pi) / 2 * n)
+
+    cells = {}
+    for x in range(tx - 3, tx + 4):
+        for y in range(ty - 3, ty + 4):
+            # 타일 그림을 먼저 받아야 그 타일의 캐시 정보가 나온다
+            opener.open(urllib.request.Request(f"https://tiles01.geocaching.com/map.png?x={x}&y={y}&z={z}", headers=UA), timeout=30).read()
+            req = urllib.request.Request(f"https://tiles01.geocaching.com/map.info?x={x}&y={y}&z={z}", headers=UA)
+            with opener.open(req, timeout=30) as r:
+                raw = r.read()
+            if not raw:
+                continue
+            for key, items in json.loads(raw)["data"].items():
+                cx, cy = map(int, key.strip("()").split(","))
+                px, py = x * 256 + cx * 4 + 2, y * 256 + cy * 4 + 2
+                for it in items:
+                    cells.setdefault(it["i"], {"name": it["n"], "pts": []})["pts"].append((px, py))
+
+    def to_latlon(px, py):
+        lon = px / (256 * n) * 360 - 180
+        lat = math.degrees(math.atan(math.sinh(math.pi * (1 - 2 * py / (256 * n)))))
+        return lat, lon
+
+    caches = []
+    for code, c in cells.items():
+        px = sum(p[0] for p in c["pts"]) / len(c["pts"])
+        py = sum(p[1] for p in c["pts"]) / len(c["pts"])
+        lat, lon = to_latlon(px, py)
+        dist = math.hypot((lat - lat0) * 111.0, (lon - lon0) * 111.0 * math.cos(math.radians(lat0)))
+        caches.append({"code": code, "name": c["name"], "lat": round(lat, 4), "lon": round(lon, 4),
+                       "km": round(dist, 1), "url": f"https://www.geocaching.com/geocache/{code}"})
+    caches = sorted((c for c in caches if c["km"] <= 3.5), key=lambda c: c["km"])
+
+    logs = []
+    for c in caches:
+        time.sleep(0.3)
+        page = opener.open(urllib.request.Request(c["url"], headers=UA), timeout=30).read().decode("utf-8", "replace")
+        title = re.search(r"<title>\s*(.*?)\s*</title>", page, re.S)
+        tm = re.search(r"\(([^()]*(?:Cache|cache|Earthcache|Hybrid))\)", title.group(1)) if title else None
+        c["type"] = TYPES_KO.get(tm.group(1), tm.group(1)) if tm else ""
+        c["premium"] = "Premium Member Only" in page or "premium-upsell" in page
+        dt = re.findall(r'alt="([\d.]+) out of 5"', page)
+        if len(dt) >= 2:
+            c["difficulty"], c["terrain"] = dt[0], dt[1]
+        size = re.search(r'title="Size: ([^"]+)"', page)
+        c["size"] = size.group(1) if size else ""
+        hid = re.search(r"(?:Hidden|Event Date)\s*:\s*(\d+)/(\d+)/(\d{4})", text(page))
+        c["hidden"] = f"{hid.group(3)}-{int(hid.group(1)):02d}-{int(hid.group(2)):02d}" if hid else ""
+        found = re.search(r'\\"logTypeID\\":2,\\"logTypeName\\":\\"Found it\\",\\"count\\":(\d+)', page)
+        c["found"] = int(found.group(1)) if found else 0
+
+        tok = re.search(r"userToken = '([^']+)'", page)
+        c["last"] = None
+        if tok:
+            lb = opener.open(urllib.request.Request(
+                f"https://www.geocaching.com/seek/geocache.logbook?tkn={tok.group(1)}&idx=1&num=5&sp=false&sf=false&decrypt=false",
+                headers={**UA, "Referer": c["url"]}), timeout=30).read().decode("utf-8", "replace")
+            for lg in json.loads(lb).get("data", []):
+                if lg["LogType"] not in ("Found it", "Didn't find it", "Attended", "Webcam Photo Taken"):
+                    continue
+                mo, d, y = lg["Visited"].split("/")
+                entry = {"date": f"{y}-{mo}-{d}", "type": lg["LogType"], "user": lg["UserName"],
+                         "text": text(lg["LogText"])[:140]}
+                logs.append({**entry, "code": c["code"], "name": c["name"], "url": c["url"]})
+                if c["last"] is None:
+                    c["last"] = {"date": entry["date"], "type": entry["type"]}
+    logs.sort(key=lambda l: l["date"], reverse=True)
+    return {"updated": NOW.strftime("%Y-%m-%d %H:%M"), "caches": caches, "logs": logs[:8]}
+
+
 def main():
     data = {"updated": NOW.strftime("%Y-%m-%d %H:%M")}
     try:
         old = json.load(open("data.json", encoding="utf-8"))
     except Exception:
         old = {}
-    for key, fn in [("kofa", kofa), ("snu", snu), ("postcrossing", postcrossing), ("court", court)]:
+    # 지오캐싱은 요청이 많아서 12시간에 한 번만 새로 받는다
+    geo_old = old.get("geo", {}).get("updated", "")
+    geo_due = not geo_old or NOW.replace(tzinfo=None) - datetime.strptime(geo_old, "%Y-%m-%d %H:%M") > timedelta(hours=12)
+    for key, fn in [("kofa", kofa), ("snu", snu), ("postcrossing", postcrossing), ("court", court), ("geo", geocaching)]:
+        if key == "geo" and not geo_due:
+            data[key] = old["geo"]
+            continue
         try:
             data[key] = fn()
             print(key, "ok", len(data[key]))
         except Exception as e:
             print(key, "실패:", e)
-            data[key] = old.get(key, {} if key in ("postcrossing", "court") else [])
+            data[key] = old.get(key, {} if key in ("postcrossing", "court", "geo") else [])
     with open("data.json", "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)
 
