@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-07 22:13",
+ "updated": "2026-10-08 05:34",
  "kofa": [
-  {
-   "date": "2026-10-07",
-   "time": "14:00",
-   "room": "2관",
-   "title": "쇼트 서킷",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010637",
-   "director": "맨프레드 키르히하이머",
-   "year": "1973년",
-   "runtime": "45분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-07",
-   "time": "16:00",
-   "room": "2관",
-   "title": "인디아 송",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010650",
-   "director": "마르그리트 뒤라스",
-   "year": "1975년",
-   "runtime": "120분",
-   "program": "《인디아 송》출간 기념 특별상영"
-  },
-  {
-   "date": "2026-10-07",
-   "time": "19:00",
-   "room": "1관",
-   "title": "워리어 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010640",
-   "director": "월터 힐",
-   "year": "1979년",
-   "runtime": "94분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-08",
    "time": "16:00",
@@ -582,9 +549,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805943,
-  "traveling": 489860,
-  "received": 88565064
+  "members": 806033,
+  "traveling": 486769,
+  "received": 88573353
  },
  "court": {
   "benches": [
@@ -841,21 +808,12 @@
   ],
   "hot": [
    {
-    "date": "2026-10-07",
-    "time": "10:10",
-    "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
-    "bench": "제27형사부 2026고합115",
-    "apply": "2026.09.30 ~ 2026.10.01 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "8"
-   },
-   {
     "date": "2026-10-14",
     "time": "10:10",
     "title": "직권남용감금 등(피고인 윤석열 외 11)",
     "bench": "제27형사부 2025고합1566",
     "apply": "2026.10.08 ~ 2026.10.09 (매일 11시 ~ 17시)",
-    "status": "진행예정",
+    "status": "진행중",
     "seats": "22"
    },
    {
@@ -870,7 +828,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-07 14:47",
+  "updated": "2026-10-08 05:34",
   "caches": [
    {
     "code": "GC3B4QM",
