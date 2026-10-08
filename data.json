@@ -1,28 +1,6 @@
 {
- "updated": "2026-10-08 19:26",
+ "updated": "2026-10-09 03:48",
  "kofa": [
-  {
-   "date": "2026-10-08",
-   "time": "16:00",
-   "room": "1관",
-   "title": "다이 하드 3",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010645",
-   "director": "존 맥티어난",
-   "year": "1995년",
-   "runtime": "129분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-08",
-   "time": "19:00",
-   "room": "1관",
-   "title": "25시",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010646",
-   "director": "스파이크 리",
-   "year": "2002년",
-   "runtime": "135분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-09",
    "time": "16:00",
@@ -615,9 +593,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805978,
-  "traveling": 486649,
-  "received": 88579333
+  "members": 806096,
+  "traveling": 482512,
+  "received": 88589220
  },
  "court": {
   "benches": [
