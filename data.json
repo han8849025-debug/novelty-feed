@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08 09:56",
+ "updated": "2026-10-08 19:26",
  "kofa": [
   {
    "date": "2026-10-08",
@@ -454,6 +454,17 @@
   },
   {
    "date": "2026-10-29",
+   "time": "14:00",
+   "room": "1관",
+   "title": "관리처분계획―미아리 텍사스 편",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010692",
+   "director": "장윤미",
+   "year": "2025년",
+   "runtime": "120분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
+  },
+  {
+   "date": "2026-10-29",
    "time": "14:30",
    "room": "2관",
    "title": "상록수",
@@ -473,6 +484,28 @@
    "year": "1957년",
    "runtime": "117분",
    "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-29",
+   "time": "19:00",
+   "room": "1관",
+   "title": "빨대",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010693",
+   "director": "섹 알 마문",
+   "year": "2025년",
+   "runtime": "83분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
+  },
+  {
+   "date": "2026-10-30",
+   "time": "14:00",
+   "room": "1관",
+   "title": "가끔은 여정이 아름답기도 하다",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010694",
+   "director": "고한벌",
+   "year": "2025년",
+   "runtime": "83분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
   },
   {
    "date": "2026-10-30",
@@ -497,6 +530,17 @@
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
+   "date": "2026-10-30",
+   "time": "19:00",
+   "room": "1관",
+   "title": "파기상접: 깨진 그릇 붙이기",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010695",
+   "director": "임지수",
+   "year": "2025년",
+   "runtime": "72분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
+  },
+  {
    "date": "2026-10-31",
    "time": "12:30",
    "room": "2관",
@@ -509,6 +553,17 @@
   },
   {
    "date": "2026-10-31",
+   "time": "13:00",
+   "room": "1관",
+   "title": "무색무취+섬섬옥수",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010696",
+   "director": "이은희",
+   "year": "",
+   "runtime": "87분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
+  },
+  {
+   "date": "2026-10-31",
    "time": "16:30",
    "room": "2관",
    "title": "자매의 화원 (4K)",
@@ -517,6 +572,17 @@
    "year": "1959년",
    "runtime": "119분",
    "program": "사랑의 역사: 신상옥x최은희"
+  },
+  {
+   "date": "2026-10-31",
+   "time": "17:00",
+   "room": "1관",
+   "title": "지금, 녜인",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010697",
+   "director": "임대청",
+   "year": "2025년",
+   "runtime": "98분",
+   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
   }
  ],
  "snu": [
@@ -549,9 +615,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805873,
-  "traveling": 486496,
-  "received": 88575029
+  "members": 805978,
+  "traveling": 486649,
+  "received": 88579333
  },
  "court": {
   "benches": [
@@ -828,7 +894,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-08 05:34",
+  "updated": "2026-10-08 19:26",
   "caches": [
    {
     "code": "GC3B4QM",
