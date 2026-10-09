@@ -1,28 +1,6 @@
 {
- "updated": "2026-10-09 19:24",
+ "updated": "2026-10-10 03:18",
  "kofa": [
-  {
-   "date": "2026-10-09",
-   "time": "16:00",
-   "room": "1관",
-   "title": "특근 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010643",
-   "director": "마틴 스콜세지",
-   "year": "1985년",
-   "runtime": "97분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-09",
-   "time": "19:00",
-   "room": "2관",
-   "title": "파편",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010641",
-   "director": "수잔 세이들먼",
-   "year": "1982년",
-   "runtime": "94분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-10",
    "time": "12:30",
@@ -114,7 +92,7 @@
   {
    "date": "2026-10-15",
    "time": "16:00",
-   "room": "1관",
+   "room": "2관",
    "title": "오프닝 세션",
    "url": "https://www.koreafilm.or.kr/movie/PM_010657",
    "director": "",
@@ -169,7 +147,7 @@
   {
    "date": "2026-10-17",
    "time": "12:00",
-   "room": "1관",
+   "room": "2관",
    "title": "동심초 (35mm)",
    "url": "https://www.koreafilm.or.kr/movie/PM_010663",
    "director": "신상옥",
@@ -593,9 +571,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805993,
-  "traveling": 481440,
-  "received": 88597443
+  "members": 806230,
+  "traveling": 479049,
+  "received": 88606131
  },
  "court": {
   "benches": [
@@ -857,7 +835,7 @@
     "title": "직권남용감금 등(피고인 윤석열 외 11)",
     "bench": "제27형사부 2025고합1566",
     "apply": "2026.10.08 ~ 2026.10.09 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "22"
    },
    {
