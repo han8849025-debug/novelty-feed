@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09 10:10",
+ "updated": "2026-10-09 19:24",
  "kofa": [
   {
    "date": "2026-10-09",
@@ -593,9 +593,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805831,
-  "traveling": 481319,
-  "received": 88592944
+  "members": 805993,
+  "traveling": 481440,
+  "received": 88597443
  },
  "court": {
   "benches": [
@@ -872,7 +872,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-08 19:26",
+  "updated": "2026-10-09 19:24",
   "caches": [
    {
     "code": "GC3B4QM",
@@ -1118,9 +1118,9 @@
     "terrain": "2",
     "size": "micro",
     "hidden": "2010-10-31",
-    "found": 91,
+    "found": 92,
     "last": {
-     "date": "2026-04-25",
+     "date": "2026-10-09",
      "type": "Found it"
     }
    },
@@ -1312,9 +1312,9 @@
     "terrain": "1.5",
     "size": "micro",
     "hidden": "2010-07-25",
-    "found": 71,
+    "found": 72,
     "last": {
-     "date": "2026-04-25",
+     "date": "2026-10-09",
      "type": "Found it"
     }
    },
@@ -1867,6 +1867,24 @@
   ],
   "logs": [
    {
+    "date": "2026-10-09",
+    "type": "Found it",
+    "user": "irma7",
+    "text": "Second cache of our vacation in Seoul 🩵 thanks. The cache needs attention. It's damaged.",
+    "code": "GC2HHNX",
+    "name": "Little rainbow bridge",
+    "url": "https://www.geocaching.com/geocache/GC2HHNX"
+   },
+   {
+    "date": "2026-10-09",
+    "type": "Found it",
+    "user": "irma7",
+    "text": "First day of our vacation in Seoul! 🩵 And the first cache here! Nice hide. Thank you, greetings from Czechia | Europe. P.S. the logbook is d",
+    "code": "GC2C97Q",
+    "name": "Boramae Safety Experience Center",
+    "url": "https://www.geocaching.com/geocache/GC2C97Q"
+   },
+   {
     "date": "2026-09-25",
     "type": "Found it",
     "user": "jeabinn",
@@ -1919,24 +1937,6 @@
     "code": "GC6W8Z1",
     "name": "Way to Seongjuam Temple",
     "url": "https://www.geocaching.com/geocache/GC6W8Z1"
-   },
-   {
-    "date": "2026-05-19",
-    "type": "Found it",
-    "user": "ZitroneSauer",
-    "text": "Thanks",
-    "code": "GC6W8Z1",
-    "name": "Way to Seongjuam Temple",
-    "url": "https://www.geocaching.com/geocache/GC6W8Z1"
-   },
-   {
-    "date": "2026-05-19",
-    "type": "Found it",
-    "user": "ZitroneSauer",
-    "text": "Nice one",
-    "code": "GC6V6M2",
-    "name": "Outdoor library box",
-    "url": "https://www.geocaching.com/geocache/GC6V6M2"
    }
   ]
  }
