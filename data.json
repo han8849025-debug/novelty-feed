@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-10 18:43",
+ "updated": "2026-10-11 02:18",
  "kofa": [
-  {
-   "date": "2026-10-10",
-   "time": "12:30",
-   "room": "1관",
-   "title": "네이키드 시티 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010636",
-   "director": "줄스 다신",
-   "year": "1948년",
-   "runtime": "99분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-10",
-   "time": "15:00",
-   "room": "1관",
-   "title": "뜨거운 오후",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010638",
-   "director": "시드니 루멧",
-   "year": "1975년",
-   "runtime": "125분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-10",
-   "time": "18:00",
-   "room": "1관",
-   "title": "고스트버스터즈 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010642",
-   "director": "아이반 라이트만",
-   "year": "1984년",
-   "runtime": "105분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-13",
    "time": "16:00",
@@ -571,9 +538,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806125,
-  "traveling": 479236,
-  "received": 88613551
+  "members": 806279,
+  "traveling": 478692,
+  "received": 88620410
  },
  "court": {
   "benches": [
@@ -850,7 +817,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-10 09:43",
+  "updated": "2026-10-11 02:18",
   "caches": [
    {
     "code": "GC3B4QM",
