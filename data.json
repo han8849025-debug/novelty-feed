@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10 09:43",
+ "updated": "2026-10-10 18:43",
  "kofa": [
   {
    "date": "2026-10-10",
@@ -158,7 +158,7 @@
   {
    "date": "2026-10-17",
    "time": "16:00",
-   "room": "1관",
+   "room": "2관",
    "title": "청일전쟁과 여걸 민비 (35mm)",
    "url": "https://www.koreafilm.or.kr/movie/PM_010676",
    "director": "임원식,나봉한",
@@ -571,9 +571,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805943,
-  "traveling": 478383,
-  "received": 88609910
+  "members": 806125,
+  "traveling": 479236,
+  "received": 88613551
  },
  "court": {
   "benches": [
