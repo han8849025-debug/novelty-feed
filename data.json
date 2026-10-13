@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13 06:13",
+ "updated": "2026-10-13 15:41",
  "kofa": [
   {
    "date": "2026-10-13",
@@ -515,7 +515,7 @@
    "title": "2026년 10월 화요음악회 : 작곡가 이지수 (Composer Jisoo Lee)",
    "place": "서울대학교 음악대학 49동 콘서트홀",
    "url": "https://music.snu.ac.kr/event_in/13207",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_DQ8aihwT_b02df3c701bd7b5c8c0fb7be718d059e0b15d6bd_308x450.jpg",
+   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_AqQfJCiW_ab8241a2c969ea6dc8db6906424af5b85e71e595_308x450.jpg",
    "tuesday": true
   },
   {
@@ -538,9 +538,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806156,
-  "traveling": 482589,
-  "received": 88646001
+  "members": 805855,
+  "traveling": 483570,
+  "received": 88648147
  },
  "court": {
   "benches": [
@@ -817,7 +817,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-12 19:38",
+  "updated": "2026-10-13 15:41",
   "caches": [
    {
     "code": "GC3B4QM",
