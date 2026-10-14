@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-14 20:43",
+ "updated": "2026-10-15 02:03",
  "kofa": [
-  {
-   "date": "2026-10-14",
-   "time": "14:00",
-   "room": "1관",
-   "title": "세계의 주인(가치봄 버전)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010651",
-   "director": "윤가은",
-   "year": "2025년",
-   "runtime": "119분",
-   "program": "가치봄영화 특별상영: 세계의 주인"
-  },
-  {
-   "date": "2026-10-14",
-   "time": "17:00",
-   "room": "2관",
-   "title": "결혼 소동",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010644",
-   "director": "조안 미클린 실버",
-   "year": "1988년",
-   "runtime": "97분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
-  {
-   "date": "2026-10-14",
-   "time": "19:30",
-   "room": "2관",
-   "title": "쇼트 서킷",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010637",
-   "director": "맨프레드 키르히하이머",
-   "year": "1973년",
-   "runtime": "45분",
-   "program": "영화와 공간: 뉴욕 Part 1"
-  },
   {
    "date": "2026-10-15",
    "time": "16:00",
@@ -525,9 +492,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806001,
-  "traveling": 478213,
-  "received": 88669544
+  "members": 806071,
+  "traveling": 475435,
+  "received": 88676805
  },
  "court": {
   "benches": [
@@ -783,15 +750,6 @@
    }
   ],
   "hot": [
-   {
-    "date": "2026-10-14",
-    "time": "10:10",
-    "title": "직권남용감금 등(피고인 윤석열 외 11)",
-    "bench": "제27형사부 2025고합1566",
-    "apply": "2026.10.08 ~ 2026.10.09 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "22"
-   },
    {
     "date": "2026-10-16",
     "time": "10:10",
