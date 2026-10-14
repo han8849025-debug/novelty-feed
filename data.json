@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14 07:38",
+ "updated": "2026-10-14 13:44",
  "kofa": [
   {
    "date": "2026-10-14",
@@ -488,6 +488,15 @@
  ],
  "snu": [
   {
+   "date": "2026-10-16",
+   "when": "10월 16일(금) 13:00",
+   "title": "Christopher Harding Piano Masterclass",
+   "place": "서울대학교 음악대학 49동 콘서트홀",
+   "url": "https://music.snu.ac.kr/event_in/13208",
+   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_cuSiNfH5_469c295802c25308079f4e8acdead6da8fdfe4e5_308x450.png",
+   "tuesday": false
+  },
+  {
    "date": "2026-10-20",
    "when": "2026. 10. 20. (화) 7 PM",
    "title": "2026년 10월 화요음악회 : 작곡가 이지수 (Composer Jisoo Lee)",
@@ -516,9 +525,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806056,
-  "traveling": 479642,
-  "received": 88662174
+  "members": 805907,
+  "traveling": 478922,
+  "received": 88664807
  },
  "court": {
   "benches": [
@@ -789,7 +798,7 @@
     "title": "정당법위반(피고인 한학자 외 4)",
     "bench": "제27형사부 2025고합1506",
     "apply": "2026.10.12 ~ 2026.10.13 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "20"
    },
    {
