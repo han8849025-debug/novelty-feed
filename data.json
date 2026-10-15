@@ -1,28 +1,6 @@
 {
- "updated": "2026-10-15 20:19",
+ "updated": "2026-10-16 01:52",
  "kofa": [
-  {
-   "date": "2026-10-15",
-   "time": "16:00",
-   "room": "2관",
-   "title": "오프닝 세션",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010657",
-   "director": "",
-   "year": "",
-   "runtime": "80분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-15",
-   "time": "18:00",
-   "room": "1관",
-   "title": "성춘향 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010671",
-   "director": "신상옥",
-   "year": "1961년",
-   "runtime": "144분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-16",
    "time": "14:00",
@@ -492,9 +470,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805920,
-  "traveling": 473791,
-  "received": 88687818
+  "members": 806004,
+  "traveling": 471434,
+  "received": 88694890
  },
  "court": {
   "benches": [
@@ -765,7 +743,7 @@
     "title": "정당법위반 등 (피고인 이만희)",
     "bench": "제27형사부 2026고합100346",
     "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "24"
    },
    {
@@ -774,7 +752,7 @@
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
     "bench": "제27형사부 2026고합115",
     "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "8"
    },
    {
@@ -789,7 +767,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-15 13:27",
+  "updated": "2026-10-16 01:52",
   "caches": [
    {
     "code": "GC3B4QM",
