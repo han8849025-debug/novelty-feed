@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 06:17",
+ "updated": "2026-10-16 13:22",
  "kofa": [
   {
    "date": "2026-10-16",
@@ -451,6 +451,15 @@
    "tuesday": true
   },
   {
+   "date": "2026-11-02",
+   "when": "2026. 11. 2. (월) 7:30PM",
+   "title": "서울대학교 개교 80주년 기념 SNU Symphony Orchestra 정기연주회",
+   "place": "롯데콘서트홀",
+   "url": "https://music.snu.ac.kr/event_in/13209",
+   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_tS8OPXDQ_0fc366b6fbdd29c3d283137d9984943c57edb0eb_308x450.png",
+   "tuesday": false
+  },
+  {
    "date": "2026-11-03",
    "when": "11월 3일 (화) 7:00PM",
    "title": "화요음악회 : 피아노 & 오케스트라 앙상블 아비람 라이헤르트 & 앙상블 화담",
@@ -470,9 +479,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806075,
-  "traveling": 470000,
-  "received": 88699381
+  "members": 805896,
+  "traveling": 469691,
+  "received": 88701838
  },
  "court": {
   "benches": [
