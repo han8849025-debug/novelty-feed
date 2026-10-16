@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-16 20:14",
+ "updated": "2026-10-17 01:32",
  "kofa": [
-  {
-   "date": "2026-10-16",
-   "time": "14:00",
-   "room": "1관",
-   "title": "소금 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010687",
-   "director": "신상옥",
-   "year": "1985년",
-   "runtime": "95분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-16",
-   "time": "17:00",
-   "room": "2관",
-   "title": "연인과 독재자",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010691",
-   "director": "로스 아담,로버트 캐넌",
-   "year": "2016년",
-   "runtime": "98분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-16",
-   "time": "19:30",
-   "room": "2관",
-   "title": "사랑의 역사 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010669",
-   "director": "이강천",
-   "year": "1960년",
-   "runtime": "109분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-17",
    "time": "12:00",
@@ -433,15 +400,6 @@
  ],
  "snu": [
   {
-   "date": "2026-10-16",
-   "when": "10월 16일(금) 13:00",
-   "title": "Christopher Harding Piano Masterclass",
-   "place": "서울대학교 음악대학 49동 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13208",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_cuSiNfH5_469c295802c25308079f4e8acdead6da8fdfe4e5_308x450.png",
-   "tuesday": false
-  },
-  {
    "date": "2026-10-20",
    "when": "2026. 10. 20. (화) 7 PM",
    "title": "2026년 10월 화요음악회 : 작곡가 이지수 (Composer Jisoo Lee)",
@@ -479,9 +437,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805962,
-  "traveling": 469380,
-  "received": 88706614
+  "members": 806038,
+  "traveling": 467889,
+  "received": 88712898
  },
  "court": {
   "benches": [
@@ -738,21 +696,12 @@
   ],
   "hot": [
    {
-    "date": "2026-10-16",
-    "time": "10:10",
-    "title": "정당법위반(피고인 한학자 외 4)",
-    "bench": "제27형사부 2025고합1506",
-    "apply": "2026.10.12 ~ 2026.10.13 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "20"
-   },
-   {
     "date": "2026-10-20",
     "time": "11:00",
     "title": "정당법위반 등 (피고인 이만희)",
     "bench": "제27형사부 2026고합100346",
     "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "24"
    },
    {
@@ -761,7 +710,7 @@
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
     "bench": "제27형사부 2026고합115",
     "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "8"
    },
    {
