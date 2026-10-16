@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16 13:22",
+ "updated": "2026-10-16 20:14",
  "kofa": [
   {
    "date": "2026-10-16",
@@ -461,11 +461,11 @@
   },
   {
    "date": "2026-11-03",
-   "when": "11월 3일 (화) 7:00PM",
-   "title": "화요음악회 : 피아노 & 오케스트라 앙상블 아비람 라이헤르트 & 앙상블 화담",
+   "when": "2026. 11. 3. (화) 7PM",
+   "title": "2026년 11월 화요음악회 : 피아니스트 아비람 라이헤르트 × 앙상블 화담 (Pianist Aviram Reichert × Ensemble HWADAM)",
    "place": "서울대학교 음악대학 49동 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13203",
-   "img": "",
+   "url": "https://music.snu.ac.kr/event_in/13210",
+   "img": "https://music.snu.ac.kr/data/editor/2610/thumb-bdad88a4d623c5efd8d31a6665a14645_1792146440_7082_308x450.jpg",
    "tuesday": true
   },
   {
@@ -479,9 +479,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805896,
-  "traveling": 469691,
-  "received": 88701838
+  "members": 805962,
+  "traveling": 469380,
+  "received": 88706614
  },
  "court": {
   "benches": [
@@ -776,7 +776,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-16 01:52",
+  "updated": "2026-10-16 20:14",
   "caches": [
    {
     "code": "GC3B4QM",
