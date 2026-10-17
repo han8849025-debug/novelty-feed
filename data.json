@@ -1,28 +1,6 @@
 {
- "updated": "2026-10-17 19:33",
+ "updated": "2026-10-18 00:27",
  "kofa": [
-  {
-   "date": "2026-10-17",
-   "time": "12:00",
-   "room": "2관",
-   "title": "동심초 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010663",
-   "director": "신상옥",
-   "year": "1959년",
-   "runtime": "125분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-17",
-   "time": "16:00",
-   "room": "2관",
-   "title": "청일전쟁과 여걸 민비 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010676",
-   "director": "임원식,나봉한",
-   "year": "1964년",
-   "runtime": "144분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-20",
    "time": "12:30",
@@ -423,7 +401,7 @@
    "title": "2026년 11월 화요음악회 : 피아니스트 아비람 라이헤르트 × 앙상블 화담 (Pianist Aviram Reichert × Ensemble HWADAM)",
    "place": "서울대학교 음악대학 49동 콘서트홀",
    "url": "https://music.snu.ac.kr/event_in/13210",
-   "img": "https://music.snu.ac.kr/data/editor/2610/thumb-bdad88a4d623c5efd8d31a6665a14645_1792146440_7082_308x450.jpg",
+   "img": "https://music.snu.ac.kr/data/editor/2610/thumb-426069a0737d4c4abf3ce4f7bdfb133a_1792248424_4491_308x450.jpg",
    "tuesday": true
   },
   {
@@ -437,9 +415,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805969,
-  "traveling": 466558,
-  "received": 88723783
+  "members": 806042,
+  "traveling": 466017,
+  "received": 88728759
  },
  "court": {
   "benches": [
@@ -725,7 +703,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-17 08:30",
+  "updated": "2026-10-18 00:27",
   "caches": [
    {
     "code": "GC3B4QM",
