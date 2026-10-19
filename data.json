@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19 13:30",
+ "updated": "2026-10-19 21:58",
  "kofa": [
   {
    "date": "2026-10-20",
@@ -200,6 +200,17 @@
    "program": "사랑의 역사: 신상옥x최은희"
   },
   {
+   "date": "2026-10-27",
+   "time": "19:00",
+   "room": "2관",
+   "title": "데이 쉘 낫 그로우 올드",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010704",
+   "director": "피터 잭슨",
+   "year": "2018년",
+   "runtime": "99분",
+   "program": "세계 시청각 유산의 날 특별상영 + 시네토크"
+  },
+  {
    "date": "2026-10-28",
    "time": "12:00",
    "room": "1관",
@@ -374,6 +385,17 @@
    "year": "2025년",
    "runtime": "98분",
    "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "18:00",
+   "room": "1관",
+   "title": "제46회 한국영화평론가협회상(영평상) 시상식",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010705",
+   "director": "",
+   "year": "",
+   "runtime": "",
+   "program": "제46회 한국영화평론가협회상(영평상) 시상식"
   }
  ],
  "snu": [
@@ -415,9 +437,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805967,
-  "traveling": 470435,
-  "received": 88746328
+  "members": 806066,
+  "traveling": 470591,
+  "received": 88751273
  },
  "court": {
   "benches": [
@@ -712,7 +734,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-19 05:34",
+  "updated": "2026-10-19 21:58",
   "caches": [
    {
     "code": "GC3B4QM",
