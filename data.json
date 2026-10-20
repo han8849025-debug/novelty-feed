@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20 17:25",
+ "updated": "2026-10-20 23:15",
  "kofa": [
   {
    "date": "2026-10-20",
@@ -444,7 +444,7 @@
   {
    "date": "2026-11-06",
    "time": "15:00",
-   "room": "1관",
+   "room": "2관",
    "title": "퀸",
    "url": "https://www.koreafilm.or.kr/movie/PM_010699",
    "director": "비카스 발",
@@ -495,6 +495,116 @@
    "year": "2018년",
    "runtime": "122분",
    "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "12:30",
+   "room": "2관",
+   "title": "배리어프리 단편",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010718",
+   "director": "",
+   "year": "",
+   "runtime": "94분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "15:00",
+   "room": "2관",
+   "title": "배리어프리 전문가과정 수료작",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010717",
+   "director": "",
+   "year": "",
+   "runtime": "70분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "15:00",
+   "room": "1관",
+   "title": "어네스트와 셀레스틴: 멜로디 소동(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010712",
+   "director": "장-크리스토페 로저, 줄리엔 청(배리어프리버전 연출 김성호)",
+   "year": "2022년",
+   "runtime": "81분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "17:00",
+   "room": "2관",
+   "title": "배리어프리자막 단편 애니메이션",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010719",
+   "director": "",
+   "year": "",
+   "runtime": "70분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "19:00",
+   "room": "1관",
+   "title": "넘버원(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010709",
+   "director": "김태용(배리어프리버전 연출 김태용)",
+   "year": "2025년",
+   "runtime": "105분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "13:30",
+   "room": "2관",
+   "title": "[폐쇄상영] 왕과 사는 남자",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010715",
+   "director": "장항준",
+   "year": "2025년",
+   "runtime": "117분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "16:30",
+   "room": "2관",
+   "title": "우리들의 교복시절(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010713",
+   "director": "장경신(배리어프리버전 연출 남궁선)",
+   "year": "2024년",
+   "runtime": "109분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "19:00",
+   "room": "1관",
+   "title": "사람과 고기(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010711",
+   "director": "양종현(배리어프리버전 연출 양종현)",
+   "year": "2025년",
+   "runtime": "106분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "15:00",
+   "room": "1관",
+   "title": "한란(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010714",
+   "director": "하명미(배리어프리버전 연출 하명미)",
+   "year": "2025년",
+   "runtime": "118분",
+   "program": "제16회 서울배리어프리영화제"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "18:30",
+   "room": "1관",
+   "title": "다윗(배리어프리)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010710",
+   "director": "필 커닝햄, 브렌트 도스(배리어프리버전 연출 유진주)",
+   "year": "2025년",
+   "runtime": "109분",
+   "program": "제16회 서울배리어프리영화제"
   },
   {
    "date": "2026-11-18",
@@ -558,9 +668,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805853,
-  "traveling": 468750,
-  "received": 88763412
+  "members": 805944,
+  "traveling": 468166,
+  "received": 88768600
  },
  "court": {
   "benches": [
