@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-20 23:15",
+ "updated": "2026-10-21 04:10",
  "kofa": [
-  {
-   "date": "2026-10-20",
-   "time": "12:30",
-   "room": "2관",
-   "title": "로맨스빠빠 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010667",
-   "director": "신상옥",
-   "year": "1960년",
-   "runtime": "131분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-20",
-   "time": "15:30",
-   "room": "2관",
-   "title": "열녀문",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010673",
-   "director": "신상옥",
-   "year": "1962년",
-   "runtime": "99분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-20",
-   "time": "18:30",
-   "room": "2관",
-   "title": "이조 여인잔혹사 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010683",
-   "director": "신상옥",
-   "year": "1969년",
-   "runtime": "85분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-21",
    "time": "14:00",
@@ -631,15 +598,6 @@
  ],
  "snu": [
   {
-   "date": "2026-10-20",
-   "when": "2026. 10. 20. (화) 7 PM",
-   "title": "2026년 10월 화요음악회 : 작곡가 이지수 (Composer Jisoo Lee)",
-   "place": "서울대학교 음악대학 49동 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13207",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_AqQfJCiW_ab8241a2c969ea6dc8db6906424af5b85e71e595_308x450.jpg",
-   "tuesday": true
-  },
-  {
    "date": "2026-11-02",
    "when": "2026. 11. 2. (월) 7:30PM",
    "title": "서울대학교 개교 80주년 기념 SNU Symphony Orchestra 정기연주회",
@@ -668,9 +626,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805944,
-  "traveling": 468166,
-  "received": 88768600
+  "members": 806004,
+  "traveling": 466808,
+  "received": 88774351
  },
  "court": {
   "benches": [
@@ -927,15 +885,6 @@
   ],
   "hot": [
    {
-    "date": "2026-10-20",
-    "time": "11:00",
-    "title": "정당법위반 등 (피고인 이만희)",
-    "bench": "제27형사부 2026고합100346",
-    "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "24"
-   },
-   {
     "date": "2026-10-21",
     "time": "10:10",
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
@@ -950,7 +899,7 @@
     "title": "정당법위반(피고인 한학자 외 4)",
     "bench": "제27형사부 2025고합1506",
     "apply": "2026.10.19 ~ 2026.10.20 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "20"
    },
    {
