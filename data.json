@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20 09:16",
+ "updated": "2026-10-20 17:25",
  "kofa": [
   {
    "date": "2026-10-20",
@@ -208,7 +208,7 @@
    "director": "피터 잭슨",
    "year": "2018년",
    "runtime": "99분",
-   "program": "세계 시청각 유산의 날 특별상영 + 시네토크"
+   "program": "'세계 시청각 유산의 날' 특별상영 + 시네토크"
   },
   {
    "date": "2026-10-28",
@@ -387,6 +387,28 @@
    "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
   },
   {
+   "date": "2026-11-03",
+   "time": "18:30",
+   "room": "1관",
+   "title": "뉴턴",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010703",
+   "director": "아미트 V. 마수르카르",
+   "year": "2017년",
+   "runtime": "104분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-04",
+   "time": "13:30",
+   "room": "2관",
+   "title": "바늘과 실: 메이드 인 인디아",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010702",
+   "director": "샤랏 카타리야",
+   "year": "2018년",
+   "runtime": "122분",
+   "program": "인도영화제"
+  },
+  {
    "date": "2026-11-04",
    "time": "18:00",
    "room": "1관",
@@ -396,6 +418,105 @@
    "year": "",
    "runtime": "",
    "program": "제46회 한국영화평론가협회상(영평상) 시상식"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "14:00",
+   "room": "2관",
+   "title": "마운틴 맨",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010701",
+   "director": "케탄 메타",
+   "year": "2015년",
+   "runtime": "117분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-05",
+   "time": "18:30",
+   "room": "2관",
+   "title": "아내업고 달리기",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010700",
+   "director": "샤랏 카타리야",
+   "year": "2015년",
+   "runtime": "140분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "15:00",
+   "room": "1관",
+   "title": "퀸",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010699",
+   "director": "비카스 발",
+   "year": "2013년",
+   "runtime": "146분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-06",
+   "time": "19:00",
+   "room": "2관",
+   "title": "뉴턴",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010703",
+   "director": "아미트 V. 마수르카르",
+   "year": "2017년",
+   "runtime": "104분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "12:30",
+   "room": "2관",
+   "title": "퀸",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010699",
+   "director": "비카스 발",
+   "year": "2013년",
+   "runtime": "146분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "15:30",
+   "room": "2관",
+   "title": "사르다르 우담",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010698",
+   "director": "슈지트 시르카르",
+   "year": "2021년",
+   "runtime": "164분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-07",
+   "time": "19:00",
+   "room": "2관",
+   "title": "바늘과 실: 메이드 인 인디아",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010702",
+   "director": "샤랏 카타리야",
+   "year": "2018년",
+   "runtime": "122분",
+   "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "15:00",
+   "room": "2관",
+   "title": "나는보리",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010706",
+   "director": "김진유",
+   "year": "2018년",
+   "runtime": "110분",
+   "program": "키즈시네마 11월"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "14:00",
+   "room": "2관",
+   "title": "나는보리",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010706",
+   "director": "김진유",
+   "year": "2018년",
+   "runtime": "110분",
+   "program": "키즈시네마 11월"
   }
  ],
  "snu": [
@@ -437,9 +558,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805952,
-  "traveling": 468887,
-  "received": 88760262
+  "members": 805853,
+  "traveling": 468750,
+  "received": 88763412
  },
  "court": {
   "benches": [
@@ -734,7 +855,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-19 21:58",
+  "updated": "2026-10-20 17:25",
   "caches": [
    {
     "code": "GC3B4QM",
