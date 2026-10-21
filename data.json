@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-21 20:39",
+ "updated": "2026-10-22 02:05",
  "kofa": [
-  {
-   "date": "2026-10-21",
-   "time": "14:00",
-   "room": "1관",
-   "title": "탈출기 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010686",
-   "director": "신상옥",
-   "year": "1984년",
-   "runtime": "105분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-21",
-   "time": "16:30",
-   "room": "2관",
-   "title": "독립협회와 청년 리승만 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010662",
-   "director": "신상옥",
-   "year": "1959년",
-   "runtime": "133분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-21",
-   "time": "19:30",
-   "room": "2관",
-   "title": "닌자키드 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010688",
-   "director": "신상옥",
-   "year": "1992년",
-   "runtime": "99분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-22",
    "time": "14:00",
@@ -648,9 +615,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805909,
-  "traveling": 465849,
-  "received": 88783295
+  "members": 806008,
+  "traveling": 463933,
+  "received": 88789979
  },
  "court": {
   "benches": [
@@ -907,15 +874,6 @@
   ],
   "hot": [
    {
-    "date": "2026-10-21",
-    "time": "10:10",
-    "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
-    "bench": "제27형사부 2026고합115",
-    "apply": "2026.10.14 ~ 2026.10.15 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "8"
-   },
-   {
     "date": "2026-10-23",
     "time": "10:10",
     "title": "정당법위반(피고인 한학자 외 4)",
@@ -936,7 +894,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-21 08:48",
+  "updated": "2026-10-22 02:05",
   "caches": [
    {
     "code": "GC3B4QM",
