@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 06:34",
+ "updated": "2026-10-22 13:32",
  "kofa": [
   {
    "date": "2026-10-22",
@@ -587,6 +587,15 @@
  ],
  "snu": [
   {
+   "date": "2026-10-28",
+   "when": "10월 28일(수) 19:30",
+   "title": "2026 피아노과 정기연주회",
+   "place": "서울대학교 음악대학 예술관(49동) 콘서트홀",
+   "url": "https://music.snu.ac.kr/event_in/13211",
+   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_8SzBcxig_85a4bdf946b5721e1b3668f6669c889bb9308f97_308x450.png",
+   "tuesday": false
+  },
+  {
    "date": "2026-11-02",
    "when": "2026. 11. 2. (월) 7:30PM",
    "title": "서울대학교 개교 80주년 기념 SNU Symphony Orchestra 정기연주회",
@@ -615,9 +624,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806052,
-  "traveling": 462521,
-  "received": 88794611
+  "members": 805899,
+  "traveling": 462290,
+  "received": 88797186
  },
  "court": {
   "benches": [
