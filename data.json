@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-22 20:41",
+ "updated": "2026-10-23 02:04",
  "kofa": [
-  {
-   "date": "2026-10-22",
-   "time": "14:00",
-   "room": "2관",
-   "title": "어느 여대생의 고백 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010661",
-   "director": "신상옥",
-   "year": "1958년",
-   "runtime": "122분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-22",
-   "time": "17:00",
-   "room": "2관",
-   "title": "산 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010680",
-   "director": "신상옥",
-   "year": "1967년",
-   "runtime": "91분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-22",
-   "time": "19:30",
-   "room": "2관",
-   "title": "무숙자 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010682",
-   "director": "신상옥",
-   "year": "1968년",
-   "runtime": "97분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-23",
    "time": "12:00",
@@ -646,9 +613,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805972,
-  "traveling": 461833,
-  "received": 88802045
+  "members": 806039,
+  "traveling": 460060,
+  "received": 88808386
  },
  "court": {
   "benches": [
