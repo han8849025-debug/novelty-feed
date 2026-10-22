@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22 13:32",
+ "updated": "2026-10-22 20:41",
  "kofa": [
   {
    "date": "2026-10-22",
@@ -563,6 +563,17 @@
    "program": "제16회 서울배리어프리영화제"
   },
   {
+   "date": "2026-11-17",
+   "time": "15:00",
+   "room": "1관",
+   "title": "어떻게 해야 했을까?",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010725",
+   "director": "후지노 토모아키",
+   "year": "2024년",
+   "runtime": "101분",
+   "program": "11월 프로그래머의 초이스"
+  },
+  {
    "date": "2026-11-18",
    "time": "15:00",
    "room": "2관",
@@ -572,6 +583,17 @@
    "year": "2018년",
    "runtime": "110분",
    "program": "키즈시네마 11월"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:00",
+   "room": "2관",
+   "title": "어떻게 해야 했을까?",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010725",
+   "director": "후지노 토모아키",
+   "year": "2024년",
+   "runtime": "101분",
+   "program": "11월 프로그래머의 초이스"
   },
   {
    "date": "2026-11-21",
@@ -624,9 +646,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805899,
-  "traveling": 462290,
-  "received": 88797186
+  "members": 805972,
+  "traveling": 461833,
+  "received": 88802045
  },
  "court": {
   "benches": [
@@ -903,7 +925,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-22 02:05",
+  "updated": "2026-10-22 20:41",
   "caches": [
    {
     "code": "GC3B4QM",
