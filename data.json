@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-23 13:38",
+ "updated": "2026-10-23 20:30",
  "kofa": [
   {
    "date": "2026-10-23",
@@ -544,8 +544,8 @@
    "date": "2026-11-18",
    "time": "15:00",
    "room": "2관",
-   "title": "나는보리",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010706",
+   "title": "나는보리(가치봄버전)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010726",
    "director": "김진유",
    "year": "2018년",
    "runtime": "110분",
@@ -613,9 +613,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805944,
-  "traveling": 458398,
-  "received": 88815160
+  "members": 806032,
+  "traveling": 458610,
+  "received": 88819806
  },
  "court": {
   "benches": [
