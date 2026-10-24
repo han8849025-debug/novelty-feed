@@ -1,39 +1,6 @@
 {
- "updated": "2026-10-24 19:50",
+ "updated": "2026-10-25 00:50",
  "kofa": [
-  {
-   "date": "2026-10-24",
-   "time": "12:00",
-   "room": "2관",
-   "title": "아이 러브 마마 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010685",
-   "director": "신상옥",
-   "year": "1975년",
-   "runtime": "63분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-24",
-   "time": "14:00",
-   "room": "2관",
-   "title": "꿈",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010658",
-   "director": "신상옥",
-   "year": "1955년",
-   "runtime": "73분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-24",
-   "time": "17:30",
-   "room": "2관",
-   "title": "사랑방 손님과 어머니 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010670",
-   "director": "신상옥",
-   "year": "1961년",
-   "runtime": "102분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-27",
    "time": "13:00",
@@ -580,9 +547,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805854,
-  "traveling": 457397,
-  "received": 88836377
+  "members": 805918,
+  "traveling": 457318,
+  "received": 88840693
  },
  "court": {
   "benches": [
