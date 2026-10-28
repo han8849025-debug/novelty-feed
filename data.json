@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28 14:28",
+ "updated": "2026-10-28 21:42",
  "kofa": [
   {
    "date": "2026-10-28",
@@ -185,7 +185,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010703",
    "director": "아미트 V. 마수르카르",
    "year": "2017년",
-   "runtime": "104분",
+   "runtime": "101분",
    "program": "인도영화제"
   },
   {
@@ -218,7 +218,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010701",
    "director": "케탄 메타",
    "year": "2015년",
-   "runtime": "117분",
+   "runtime": "114분",
    "program": "인도영화제"
   },
   {
@@ -229,7 +229,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010700",
    "director": "샤랏 카타리야",
    "year": "2015년",
-   "runtime": "140분",
+   "runtime": "110분",
    "program": "인도영화제"
   },
   {
@@ -240,7 +240,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010699",
    "director": "비카스 발",
    "year": "2013년",
-   "runtime": "146분",
+   "runtime": "139분",
    "program": "인도영화제"
   },
   {
@@ -251,7 +251,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010703",
    "director": "아미트 V. 마수르카르",
    "year": "2017년",
-   "runtime": "104분",
+   "runtime": "101분",
    "program": "인도영화제"
   },
   {
@@ -262,7 +262,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010699",
    "director": "비카스 발",
    "year": "2013년",
-   "runtime": "146분",
+   "runtime": "139분",
    "program": "인도영화제"
   },
   {
@@ -503,9 +503,9 @@
   }
  ],
  "postcrossing": {
-  "members": 805977,
-  "traveling": 457918,
-  "received": 88891725
+  "members": 806050,
+  "traveling": 457782,
+  "received": 88896321
  },
  "court": {
   "benches": [
@@ -795,7 +795,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-28 07:07",
+  "updated": "2026-10-28 21:42",
   "caches": [
    {
     "code": "GC3B4QM",
