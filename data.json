@@ -1,50 +1,6 @@
 {
- "updated": "2026-10-28 21:42",
+ "updated": "2026-10-29 05:13",
  "kofa": [
-  {
-   "date": "2026-10-28",
-   "time": "12:00",
-   "room": "1관",
-   "title": "겨울 이야기",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010690",
-   "director": "신상옥",
-   "year": "2004년",
-   "runtime": "84분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-28",
-   "time": "14:30",
-   "room": "2관",
-   "title": "벙어리 삼룡",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010677",
-   "director": "신상옥",
-   "year": "1964년",
-   "runtime": "86분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-28",
-   "time": "17:00",
-   "room": "2관",
-   "title": "빨간 마후라",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010678",
-   "director": "신상옥",
-   "year": "1964년",
-   "runtime": "105분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-28",
-   "time": "19:30",
-   "room": "2관",
-   "title": "그 여자의 죄가 아니다 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010665",
-   "director": "신상옥",
-   "year": "1959년",
-   "runtime": "104분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
   {
    "date": "2026-10-29",
    "time": "14:00",
@@ -466,15 +422,6 @@
  ],
  "snu": [
   {
-   "date": "2026-10-28",
-   "when": "10월 28일(수) 19:30",
-   "title": "2026 피아노과 정기연주회",
-   "place": "서울대학교 음악대학 예술관(49동) 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13211",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_8SzBcxig_85a4bdf946b5721e1b3668f6669c889bb9308f97_308x450.png",
-   "tuesday": false
-  },
-  {
    "date": "2026-11-02",
    "when": "2026. 11. 2. (월) 7:30PM",
    "title": "서울대학교 개교 80주년 기념 SNU Symphony Orchestra 정기연주회",
@@ -503,9 +450,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806050,
-  "traveling": 457782,
-  "received": 88896321
+  "members": 806278,
+  "traveling": 455302,
+  "received": 88905068
  },
  "court": {
   "benches": [
@@ -780,7 +727,7 @@
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
     "bench": "제27형사부 2026고합115",
     "apply": "2026.10.29 ~ 2026.10.30 (매일 11시 ~ 17시)",
-    "status": "진행예정",
+    "status": "진행중",
     "seats": "8"
    },
    {
