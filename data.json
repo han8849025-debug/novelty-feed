@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29 09:49",
+ "updated": "2026-10-29 18:49",
  "kofa": [
   {
    "date": "2026-10-29",
@@ -440,6 +440,15 @@
    "tuesday": true
   },
   {
+   "date": "2026-11-06",
+   "when": "2026년 11월 6일 (금) 오후 4시",
+   "title": "Jared Redmond Piano Lecture",
+   "place": "서울대학교 음악대학 49동 316호",
+   "url": "https://music.snu.ac.kr/event_in/13212",
+   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_GeJSfkCp_3632ffe2fcc136163f8ad0f08b07529ac0fe687b_308x450.png",
+   "tuesday": false
+  },
+  {
    "date": "2026-12-15",
    "when": "12월 15일 (화) 7:00PM",
    "title": "화요음악회 : 소프라노 이혜정",
@@ -450,9 +459,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806097,
-  "traveling": 455045,
-  "received": 88907777
+  "members": 806279,
+  "traveling": 455211,
+  "received": 88911882
  },
  "court": {
   "benches": [
