@@ -1,50 +1,6 @@
 {
- "updated": "2026-10-30 18:54",
+ "updated": "2026-10-31 02:57",
  "kofa": [
-  {
-   "date": "2026-10-30",
-   "time": "14:00",
-   "room": "1관",
-   "title": "가끔은 여정이 아름답기도 하다",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010694",
-   "director": "고한벌",
-   "year": "2025년",
-   "runtime": "83분",
-   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "15:30",
-   "room": "2관",
-   "title": "로맨스그레이 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010674",
-   "director": "신상옥",
-   "year": "1963년",
-   "runtime": "125분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "18:30",
-   "room": "2관",
-   "title": "백사부인 (35mm)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010666",
-   "director": "신상옥",
-   "year": "1960년",
-   "runtime": "91분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-30",
-   "time": "19:00",
-   "room": "1관",
-   "title": "파기상접: 깨진 그릇 붙이기",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010695",
-   "director": "임지수",
-   "year": "2025년",
-   "runtime": "72분",
-   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
-  },
   {
    "date": "2026-10-31",
    "time": "12:30",
@@ -415,9 +371,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806634,
-  "traveling": 452752,
-  "received": 88929124
+  "members": 806827,
+  "traveling": 451211,
+  "received": 88936893
  },
  "court": {
   "benches": [
@@ -674,7 +630,7 @@
     "title": "공직선거법위반(전광훈 외 1)",
     "bench": "제27형사부 2026고합388",
     "apply": "2026.10.28 ~ 2026.10.29 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "12"
    },
    {
@@ -683,7 +639,7 @@
     "title": "정당법위반 등 (피고인 이만희)",
     "bench": "제27형사부 2026고합100346",
     "apply": "2026.10.28 ~ 2026.10.29 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "24"
    },
    {
@@ -692,7 +648,7 @@
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
     "bench": "제27형사부 2026고합115",
     "apply": "2026.10.29 ~ 2026.10.30 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "8"
    },
    {
