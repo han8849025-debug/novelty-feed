@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30 09:50",
+ "updated": "2026-10-30 18:54",
  "kofa": [
   {
    "date": "2026-10-30",
@@ -251,7 +251,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010719",
    "director": "",
    "year": "",
-   "runtime": "70분",
+   "runtime": "65분",
    "program": "제16회 서울배리어프리영화제"
   },
   {
@@ -415,9 +415,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806514,
-  "traveling": 452660,
-  "received": 88925143
+  "members": 806634,
+  "traveling": 452752,
+  "received": 88929124
  },
  "court": {
   "benches": [
@@ -707,7 +707,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-10-30 03:24",
+  "updated": "2026-10-30 18:54",
   "caches": [
    {
     "code": "GC3B4QM",
