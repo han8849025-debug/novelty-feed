@@ -1,50 +1,6 @@
 {
- "updated": "2026-10-31 21:14",
+ "updated": "2026-11-01 04:14",
  "kofa": [
-  {
-   "date": "2026-10-31",
-   "time": "12:30",
-   "room": "2관",
-   "title": "만종",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010684",
-   "director": "신상옥",
-   "year": "1969년",
-   "runtime": "119분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "13:00",
-   "room": "1관",
-   "title": "무색무취+섬섬옥수",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010696",
-   "director": "이은희",
-   "year": "",
-   "runtime": "87분",
-   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "16:30",
-   "room": "2관",
-   "title": "자매의 화원 (4K)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010664",
-   "director": "신상옥",
-   "year": "1959년",
-   "runtime": "119분",
-   "program": "사랑의 역사: 신상옥x최은희"
-  },
-  {
-   "date": "2026-10-31",
-   "time": "17:00",
-   "room": "1관",
-   "title": "지금, 녜인",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010697",
-   "director": "임대청",
-   "year": "2025년",
-   "runtime": "98분",
-   "program": "2026 독립영화 쇼케이스 기획전: 광장의 다성악"
-  },
   {
    "date": "2026-11-03",
    "time": "18:30",
@@ -371,9 +327,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806697,
-  "traveling": 450661,
-  "received": 88946689
+  "members": 806841,
+  "traveling": 450518,
+  "received": 88952886
  },
  "court": {
   "benches": [
