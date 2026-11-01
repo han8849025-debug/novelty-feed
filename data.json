@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01 22:11",
+ "updated": "2026-11-02 04:34",
  "kofa": [
   {
    "date": "2026-11-03",
@@ -327,9 +327,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806749,
-  "traveling": 453509,
-  "received": 88960576
+  "members": 806930,
+  "traveling": 456321,
+  "received": 88964207
  },
  "court": {
   "benches": [
@@ -619,7 +619,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-01 14:52",
+  "updated": "2026-11-02 04:34",
   "caches": [
    {
     "code": "GC3B4QM",
@@ -867,8 +867,8 @@
     "hidden": "2010-10-31",
     "found": 92,
     "last": {
-     "date": "2026-10-09",
-     "type": "Found it"
+     "date": "2026-11-01",
+     "type": "Didn't find it"
     }
    },
    {
@@ -1614,6 +1614,15 @@
   ],
   "logs": [
    {
+    "date": "2026-11-01",
+    "type": "Didn't find it",
+    "user": "soy0",
+    "text": "The bridge is under construction so cant reach",
+    "code": "GC2HHNX",
+    "name": "Little rainbow bridge",
+    "url": "https://www.geocaching.com/geocache/GC2HHNX"
+   },
+   {
     "date": "2026-10-09",
     "type": "Found it",
     "user": "irma7",
@@ -1675,15 +1684,6 @@
     "code": "GC6J0QN",
     "name": "Disabled-Friendly Trail",
     "url": "https://www.geocaching.com/geocache/GC6J0QN"
-   },
-   {
-    "date": "2026-05-19",
-    "type": "Found it",
-    "user": "kalibos",
-    "text": "Greetings from old Germany T4TC 🙃",
-    "code": "GC6W8Z1",
-    "name": "Way to Seongjuam Temple",
-    "url": "https://www.geocaching.com/geocache/GC6W8Z1"
    }
   ]
  }
