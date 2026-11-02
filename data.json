@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02 19:53",
+ "updated": "2026-11-03 06:40",
  "kofa": [
   {
    "date": "2026-11-03",
@@ -290,15 +290,6 @@
  ],
  "snu": [
   {
-   "date": "2026-11-02",
-   "when": "2026. 11. 2. (월) 7:30PM",
-   "title": "서울대학교 개교 80주년 기념 SNU Symphony Orchestra 정기연주회",
-   "place": "롯데콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13209",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_tS8OPXDQ_0fc366b6fbdd29c3d283137d9984943c57edb0eb_308x450.png",
-   "tuesday": false
-  },
-  {
    "date": "2026-11-03",
    "when": "2026. 11. 3. (화) 7PM",
    "title": "2026년 11월 화요음악회 : 피아니스트 아비람 라이헤르트 × 앙상블 화담 (Pianist Aviram Reichert × Ensemble HWADAM)",
@@ -327,9 +318,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806731,
-  "traveling": 459176,
-  "received": 88968964
+  "members": 806960,
+  "traveling": 458768,
+  "received": 88977936
  },
  "court": {
   "benches": [
