@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03 06:40",
+ "updated": "2026-11-03 15:37",
  "kofa": [
   {
    "date": "2026-11-03",
@@ -181,7 +181,7 @@
    "date": "2026-11-13",
    "time": "13:30",
    "room": "2관",
-   "title": "[폐쇄상영] 왕과 사는 남자",
+   "title": "[폐쇄상영] 왕과 사는 남자(일반버전)",
    "url": "https://www.koreafilm.or.kr/movie/PM_010715",
    "director": "장항준",
    "year": "2025년",
@@ -255,6 +255,17 @@
    "program": "11월 프로그래머의 초이스"
   },
   {
+   "date": "2026-11-17",
+   "time": "18:00",
+   "room": "2관",
+   "title": "루시아",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010723",
+   "director": "움베르토 솔라스",
+   "year": "1968년",
+   "runtime": "161분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
    "date": "2026-11-18",
    "time": "15:00",
    "room": "2관",
@@ -264,6 +275,50 @@
    "year": "2018년",
    "runtime": "110분",
    "program": "키즈시네마 11월"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "19:00",
+   "room": "2관",
+   "title": "딸기와 초콜렛",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010724",
+   "director": "토마스 구티에레즈 알레아, 후안 칼로스 타비오",
+   "year": "1993년",
+   "runtime": "108분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "16:00",
+   "room": "2관",
+   "title": "저개발의 기억",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010722",
+   "director": "토마스 구티에레즈 알레아",
+   "year": "1968년",
+   "runtime": "97분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "19:30",
+   "room": "2관",
+   "title": "어느 관료의 죽음",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010721",
+   "director": "토마스 구티에레즈 알레아",
+   "year": "1966년",
+   "runtime": "85분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "15:00",
+   "room": "2관",
+   "title": "루시아",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010723",
+   "director": "움베르토 솔라스",
+   "year": "1968년",
+   "runtime": "161분",
+   "program": "아바나의 기억: 쿠바 영화전"
   },
   {
    "date": "2026-11-20",
@@ -286,6 +341,39 @@
    "year": "2018년",
    "runtime": "110분",
    "program": "키즈시네마 11월"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "18:00",
+   "room": "2관",
+   "title": "어느 관료의 죽음",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010721",
+   "director": "토마스 구티에레즈 알레아",
+   "year": "1966년",
+   "runtime": "85분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "16:00",
+   "room": "2관",
+   "title": "딸기와 초콜렛",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010724",
+   "director": "토마스 구티에레즈 알레아, 후안 칼로스 타비오",
+   "year": "1993년",
+   "runtime": "108분",
+   "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "19:00",
+   "room": "2관",
+   "title": "저개발의 기억",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010722",
+   "director": "토마스 구티에레즈 알레아",
+   "year": "1968년",
+   "runtime": "97분",
+   "program": "아바나의 기억: 쿠바 영화전"
   }
  ],
  "snu": [
@@ -318,9 +406,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806960,
-  "traveling": 458768,
-  "received": 88977936
+  "members": 806652,
+  "traveling": 458635,
+  "received": 88981775
  },
  "court": {
   "benches": [
@@ -610,7 +698,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-02 19:53",
+  "updated": "2026-11-03 15:37",
   "caches": [
    {
     "code": "GC3B4QM",
