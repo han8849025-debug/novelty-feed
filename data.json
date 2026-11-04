@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-04 23:22",
+ "updated": "2026-11-05 06:15",
  "kofa": [
-  {
-   "date": "2026-11-04",
-   "time": "13:30",
-   "room": "2관",
-   "title": "바늘과 실: 메이드 인 인디아",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010702",
-   "director": "샤랏 카타리야",
-   "year": "2018년",
-   "runtime": "122분",
-   "program": "인도영화제"
-  },
-  {
-   "date": "2026-11-04",
-   "time": "18:00",
-   "room": "1관",
-   "title": "제46회 한국영화평론가협회상(영평상) 시상식",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010705",
-   "director": "",
-   "year": "",
-   "runtime": "",
-   "program": "제46회 한국영화평론가협회상(영평상) 시상식"
-  },
   {
    "date": "2026-11-05",
    "time": "14:00",
@@ -441,9 +419,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806699,
-  "traveling": 456343,
-  "received": 89003967
+  "members": 806836,
+  "traveling": 454428,
+  "received": 89011535
  },
  "court": {
   "benches": [
