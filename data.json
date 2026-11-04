@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04 08:13",
+ "updated": "2026-11-04 15:04",
  "kofa": [
   {
    "date": "2026-11-04",
@@ -99,6 +99,39 @@
    "year": "2018년",
    "runtime": "122분",
    "program": "인도영화제"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "13:30",
+   "room": "1관",
+   "title": "마티 슈프림",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010729",
+   "director": "조쉬 사프디",
+   "year": "2025년",
+   "runtime": "149분",
+   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "17:00",
+   "room": "1관",
+   "title": "헤븐 노우즈 왓",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010728",
+   "director": "조쉬 사프디, 베니 사프디",
+   "year": "2014년",
+   "runtime": "97분",
+   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "19:30",
+   "room": "1관",
+   "title": "도난당하는 것의 즐거움 (즐거운 도난)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010727",
+   "director": "조쉬 사프디",
+   "year": "2008년",
+   "runtime": "71분",
+   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
   },
   {
    "date": "2026-11-11",
@@ -363,6 +396,28 @@
    "year": "1968년",
    "runtime": "97분",
    "program": "아바나의 기억: 쿠바 영화전"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "15:30",
+   "room": "2관",
+   "title": "마티 슈프림",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010729",
+   "director": "조쉬 사프디",
+   "year": "2025년",
+   "runtime": "149분",
+   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "19:00",
+   "room": "2관",
+   "title": "헤븐 노우즈 왓",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010728",
+   "director": "조쉬 사프디, 베니 사프디",
+   "year": "2014년",
+   "runtime": "97분",
+   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
   }
  ],
  "snu": [
@@ -386,9 +441,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806919,
-  "traveling": 456523,
-  "received": 88995352
+  "members": 806591,
+  "traveling": 456233,
+  "received": 88998134
  },
  "court": {
   "benches": [
