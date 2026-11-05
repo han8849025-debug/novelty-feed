@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-05 15:33",
+ "updated": "2026-11-06 02:19",
  "kofa": [
-  {
-   "date": "2026-11-05",
-   "time": "14:00",
-   "room": "2관",
-   "title": "마운틴 맨",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010701",
-   "director": "케탄 메타",
-   "year": "2015년",
-   "runtime": "114분",
-   "program": "인도영화제"
-  },
-  {
-   "date": "2026-11-05",
-   "time": "18:30",
-   "room": "2관",
-   "title": "아내업고 달리기",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010700",
-   "director": "샤랏 카타리야",
-   "year": "2015년",
-   "runtime": "110분",
-   "program": "인도영화제"
-  },
   {
    "date": "2026-11-06",
    "time": "15:00",
@@ -419,9 +397,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806533,
-  "traveling": 454488,
-  "received": 89015318
+  "members": 806721,
+  "traveling": 453724,
+  "received": 89024090
  },
  "court": {
   "benches": [
@@ -687,7 +665,7 @@
     "title": "직권남용감금 등(피고인 윤석열 외 11)",
     "bench": "제27형사부 2025고합1566",
     "apply": "2026.11.04 ~ 2026.11.05 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "22"
    },
    {
