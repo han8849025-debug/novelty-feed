@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-06 15:28",
+ "updated": "2026-11-07 01:42",
  "kofa": [
-  {
-   "date": "2026-11-06",
-   "time": "15:00",
-   "room": "2관",
-   "title": "퀸",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010699",
-   "director": "비카스 발",
-   "year": "2013년",
-   "runtime": "139분",
-   "program": "인도영화제"
-  },
-  {
-   "date": "2026-11-06",
-   "time": "19:00",
-   "room": "2관",
-   "title": "뉴턴",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010703",
-   "director": "아미트 V. 마수르카르",
-   "year": "2017년",
-   "runtime": "101분",
-   "program": "인도영화제"
-  },
   {
    "date": "2026-11-07",
    "time": "12:30",
@@ -378,15 +356,6 @@
  ],
  "snu": [
   {
-   "date": "2026-11-06",
-   "when": "2026년 11월 6일 (금) 오후 4시",
-   "title": "Jared Redmond Piano Lecture",
-   "place": "서울대학교 음악대학 49동 316호",
-   "url": "https://music.snu.ac.kr/event_in/13212",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-b203eb8eb88ad3a03a779b198bfdbd85_GeJSfkCp_3632ffe2fcc136163f8ad0f08b07529ac0fe687b_308x450.png",
-   "tuesday": false
-  },
-  {
    "date": "2026-12-15",
    "when": "12월 15일 (화) 7:00PM",
    "title": "화요음악회 : 소프라노 이혜정",
@@ -397,9 +366,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806479,
-  "traveling": 452601,
-  "received": 89032163
+  "members": 806654,
+  "traveling": 452309,
+  "received": 89040123
  },
  "court": {
   "benches": [
@@ -651,21 +620,12 @@
   ],
   "hot": [
    {
-    "date": "2026-11-06",
-    "time": "10:10",
-    "title": "정당법위반(피고인 한학자 외 4)",
-    "bench": "제27형사부 2025고합1506",
-    "apply": "2026.11.02 ~ 2026.11.03 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "20"
-   },
-   {
     "date": "2026-11-11",
-    "time": "10:10",
+    "time": "10:00",
     "title": "직권남용감금 등(피고인 윤석열 외 11)",
     "bench": "제27형사부 2025고합1566",
     "apply": "2026.11.04 ~ 2026.11.05 (매일 11시 ~ 17시)",
-    "status": "종료",
+    "status": "추첨완료",
     "seats": "22"
    },
    {
@@ -689,7 +649,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-06 08:34",
+  "updated": "2026-11-07 01:42",
   "caches": [
    {
     "code": "GC3B4QM",
