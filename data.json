@@ -1,39 +1,6 @@
 {
- "updated": "2026-11-07 21:52",
+ "updated": "2026-11-08 04:21",
  "kofa": [
-  {
-   "date": "2026-11-07",
-   "time": "12:30",
-   "room": "2관",
-   "title": "퀸",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010699",
-   "director": "비카스 발",
-   "year": "2013년",
-   "runtime": "139분",
-   "program": "인도영화제"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "15:30",
-   "room": "2관",
-   "title": "사르다르 우담",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010698",
-   "director": "슈지트 시르카르",
-   "year": "2021년",
-   "runtime": "164분",
-   "program": "인도영화제"
-  },
-  {
-   "date": "2026-11-07",
-   "time": "19:00",
-   "room": "2관",
-   "title": "바늘과 실: 메이드 인 인디아",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010702",
-   "director": "샤랏 카타리야",
-   "year": "2018년",
-   "runtime": "122분",
-   "program": "인도영화제"
-  },
   {
    "date": "2026-11-10",
    "time": "13:30",
@@ -366,9 +333,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806728,
-  "traveling": 453328,
-  "received": 89051929
+  "members": 806906,
+  "traveling": 453630,
+  "received": 89057658
  },
  "court": {
   "benches": [
@@ -649,7 +616,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-07 14:49",
+  "updated": "2026-11-08 04:21",
   "caches": [
    {
     "code": "GC3B4QM",
