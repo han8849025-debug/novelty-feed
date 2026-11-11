@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-11 19:45",
+ "updated": "2026-11-12 04:31",
  "kofa": [
-  {
-   "date": "2026-11-11",
-   "time": "12:30",
-   "room": "2관",
-   "title": "배리어프리 단편",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010718",
-   "director": "",
-   "year": "",
-   "runtime": "94분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-11",
-   "time": "15:00",
-   "room": "2관",
-   "title": "배리어프리 전문가과정 수료작",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010717",
-   "director": "",
-   "year": "",
-   "runtime": "70분",
-   "program": "제16회 서울배리어프리영화제"
-  },
   {
    "date": "2026-11-12",
    "time": "13:30",
@@ -300,9 +278,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807058,
-  "traveling": 460646,
-  "received": 89104227
+  "members": 807317,
+  "traveling": 459869,
+  "received": 89112395
  },
  "court": {
   "benches": [
