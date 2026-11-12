@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12 11:13",
+ "updated": "2026-11-12 19:55",
  "kofa": [
   {
    "date": "2026-11-12",
@@ -7,9 +7,9 @@
    "room": "2관",
    "title": "[포럼] 배리어프리영화 제작에서 창작자와 수용자의 역할과 의미",
    "url": "https://www.koreafilm.or.kr/movie/PM_010720",
-   "director": "김수정, 권순철, 최하늘, 하명미",
+   "director": "",
    "year": "",
-   "runtime": "",
+   "runtime": "90분",
    "program": "제16회 서울배리어프리영화제"
   },
   {
@@ -278,9 +278,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806994,
-  "traveling": 460188,
-  "received": 89115337
+  "members": 807173,
+  "traveling": 460722,
+  "received": 89118944
  },
  "court": {
   "benches": [
