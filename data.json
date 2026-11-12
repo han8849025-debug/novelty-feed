@@ -1,50 +1,6 @@
 {
- "updated": "2026-11-12 19:55",
+ "updated": "2026-11-13 04:50",
  "kofa": [
-  {
-   "date": "2026-11-12",
-   "time": "13:30",
-   "room": "2관",
-   "title": "[포럼] 배리어프리영화 제작에서 창작자와 수용자의 역할과 의미",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010720",
-   "director": "",
-   "year": "",
-   "runtime": "90분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "15:00",
-   "room": "1관",
-   "title": "어네스트와 셀레스틴: 멜로디 소동(배리어프리)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010712",
-   "director": "장-크리스토페 로저, 줄리엔 청(배리어프리버전 연출 김성호)",
-   "year": "2022년",
-   "runtime": "81분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "17:00",
-   "room": "2관",
-   "title": "배리어프리자막 단편 애니메이션",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010719",
-   "director": "",
-   "year": "",
-   "runtime": "65분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "19:00",
-   "room": "1관",
-   "title": "넘버원(배리어프리)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010709",
-   "director": "김태용(배리어프리버전 연출 김태용)",
-   "year": "2025년",
-   "runtime": "105분",
-   "program": "제16회 서울배리어프리영화제"
-  },
   {
    "date": "2026-11-13",
    "time": "13:30",
@@ -278,9 +234,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807173,
-  "traveling": 460722,
-  "received": 89118944
+  "members": 807344,
+  "traveling": 458926,
+  "received": 89127442
  },
  "court": {
   "benches": [
@@ -588,7 +544,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-12 11:13",
+  "updated": "2026-11-13 04:50",
   "caches": [
    {
     "code": "GC3B4QM",
