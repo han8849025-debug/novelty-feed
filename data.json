@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 04:50",
+ "updated": "2026-11-13 10:46",
  "kofa": [
   {
    "date": "2026-11-13",
@@ -234,9 +234,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807344,
-  "traveling": 458926,
-  "received": 89127442
+  "members": 807053,
+  "traveling": 458320,
+  "received": 89131083
  },
  "court": {
   "benches": [
