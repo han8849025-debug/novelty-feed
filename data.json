@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13 10:46",
+ "updated": "2026-11-13 19:50",
  "kofa": [
   {
    "date": "2026-11-13",
@@ -220,6 +220,28 @@
    "year": "2014년",
    "runtime": "97분",
    "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "17:00",
+   "room": "2관",
+   "title": "눈 둘 데가 없네",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010730",
+   "director": "홍상수",
+   "year": "2026년",
+   "runtime": "72분",
+   "program": "12월 프로그래머의 초이스"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "19:00",
+   "room": "2관",
+   "title": "눈 둘 데가 없네",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010730",
+   "director": "홍상수",
+   "year": "2026년",
+   "runtime": "72분",
+   "program": "12월 프로그래머의 초이스"
   }
  ],
  "snu": [
@@ -234,9 +256,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807053,
-  "traveling": 458320,
-  "received": 89131083
+  "members": 807159,
+  "traveling": 459106,
+  "received": 89134923
  },
  "court": {
   "benches": [
@@ -544,7 +566,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-13 04:50",
+  "updated": "2026-11-13 19:50",
   "caches": [
    {
     "code": "GC3B4QM",
