@@ -1,39 +1,6 @@
 {
- "updated": "2026-11-14 19:11",
+ "updated": "2026-11-15 02:56",
  "kofa": [
-  {
-   "date": "2026-11-14",
-   "time": "12:30",
-   "room": "2관",
-   "title": "[모두를 위한 상영] 파이어하트(배리어프리)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010716",
-   "director": "로랑 제이통, 시어도어 타이(배리어프리버전 연출 원종식)",
-   "year": "2023년",
-   "runtime": "92분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "15:00",
-   "room": "1관",
-   "title": "한란(배리어프리)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010714",
-   "director": "하명미(배리어프리버전 연출 하명미)",
-   "year": "2025년",
-   "runtime": "118분",
-   "program": "제16회 서울배리어프리영화제"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "18:30",
-   "room": "1관",
-   "title": "다윗(배리어프리)",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010710",
-   "director": "필 커닝햄, 브렌트 도스(배리어프리버전 연출 유진주)",
-   "year": "2025년",
-   "runtime": "109분",
-   "program": "제16회 서울배리어프리영화제"
-  },
   {
    "date": "2026-11-17",
    "time": "15:00",
@@ -223,9 +190,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807044,
-  "traveling": 457898,
-  "received": 89150382
+  "members": 807179,
+  "traveling": 457834,
+  "received": 89156453
  },
  "court": {
   "benches": [
@@ -506,7 +473,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-14 10:24",
+  "updated": "2026-11-15 02:56",
   "caches": [
    {
     "code": "GC3B4QM",
