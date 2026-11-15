@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15 07:16",
+ "updated": "2026-11-15 15:16",
  "kofa": [
   {
    "date": "2026-11-17",
@@ -190,9 +190,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807251,
-  "traveling": 458085,
-  "received": 89158905
+  "members": 806958,
+  "traveling": 459290,
+  "received": 89160802
  },
  "court": {
   "benches": [
@@ -473,7 +473,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-15 02:56",
+  "updated": "2026-11-15 15:16",
   "caches": [
    {
     "code": "GC3B4QM",
