@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17 04:30",
+ "updated": "2026-11-17 12:43",
  "kofa": [
   {
    "date": "2026-11-17",
@@ -156,6 +156,50 @@
    "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
   },
   {
+   "date": "2026-12-01",
+   "time": "13:00",
+   "room": "1관",
+   "title": "가고파",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010756",
+   "director": "곽정환",
+   "year": "1984년",
+   "runtime": "110분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "16:00",
+   "room": "2관",
+   "title": "사격장의 아이들",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010758",
+   "director": "김수용",
+   "year": "1967년",
+   "runtime": "85분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "18:30",
+   "room": "1관",
+   "title": "집념",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010753",
+   "director": "최인현",
+   "year": "1976년",
+   "runtime": "145분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "14:00",
+   "room": "2관",
+   "title": "나무들 비탈에 서다",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010752",
+   "director": "최하원",
+   "year": "1968년",
+   "runtime": "108분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
    "date": "2026-12-02",
    "time": "17:00",
    "room": "2관",
@@ -165,6 +209,83 @@
    "year": "2026년",
    "runtime": "72분",
    "program": "12월 프로그래머의 초이스"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "19:00",
+   "room": "1관",
+   "title": "을화",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010760",
+   "director": "변장호",
+   "year": "1979년",
+   "runtime": "100분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "13:00",
+   "room": "2관",
+   "title": "장희빈",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010757",
+   "director": "정창화",
+   "year": "1961년",
+   "runtime": "126분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "16:00",
+   "room": "1관",
+   "title": "화녀 82",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010761",
+   "director": "김기영",
+   "year": "1982년",
+   "runtime": "115분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "19:00",
+   "room": "1관",
+   "title": "외인들",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010755",
+   "director": "고영남",
+   "year": "1980년",
+   "runtime": "100분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "15:00",
+   "room": "1관",
+   "title": "초연",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010751",
+   "director": "정진우",
+   "year": "1966년",
+   "runtime": "103분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "18:30",
+   "room": "1관",
+   "title": "여자형사 마리",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010754",
+   "director": "이은수",
+   "year": "1975년",
+   "runtime": "81분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "16:00",
+   "room": "2관",
+   "title": "빙점",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010759",
+   "director": "김수용",
+   "year": "1967년",
+   "runtime": "105분",
+   "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
   },
   {
    "date": "2026-12-08",
@@ -190,9 +311,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807302,
-  "traveling": 467100,
-  "received": 89179148
+  "members": 807041,
+  "traveling": 467059,
+  "received": 89182915
  },
  "court": {
   "benches": [
