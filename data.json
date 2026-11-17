@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-17 12:43",
+ "updated": "2026-11-18 00:53",
  "kofa": [
-  {
-   "date": "2026-11-17",
-   "time": "15:00",
-   "room": "1관",
-   "title": "어떻게 해야 했을까?",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010725",
-   "director": "후지노 토모아키",
-   "year": "2024년",
-   "runtime": "101분",
-   "program": "11월 프로그래머의 초이스"
-  },
-  {
-   "date": "2026-11-17",
-   "time": "18:00",
-   "room": "2관",
-   "title": "루시아",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010723",
-   "director": "움베르토 솔라스",
-   "year": "1968년",
-   "runtime": "161분",
-   "program": "아바나의 기억: 쿠바 영화전"
-  },
   {
    "date": "2026-11-18",
    "time": "15:00",
@@ -154,6 +132,127 @@
    "year": "2014년",
    "runtime": "97분",
    "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "12:00",
+   "room": "2관",
+   "title": "희망의 요소",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010749",
+   "director": "이원영",
+   "year": "2021년",
+   "runtime": "83분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "15:30",
+   "room": "2관",
+   "title": "홍이",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010748",
+   "director": "황슬기",
+   "year": "2024년",
+   "runtime": "86분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "18:30",
+   "room": "2관",
+   "title": "사람과 고기",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010744",
+   "director": "양종현",
+   "year": "2025년",
+   "runtime": "106분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "19:00",
+   "room": "1관",
+   "title": "살목지",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010745",
+   "director": "이상민",
+   "year": "2025년",
+   "runtime": "95분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "13:00",
+   "room": "2관",
+   "title": "두 검사",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010742",
+   "director": "세르게이 로츠니챠",
+   "year": "2025년",
+   "runtime": "118분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "16:30",
+   "room": "1관",
+   "title": "광장",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010741",
+   "director": "김보솔",
+   "year": "2025년",
+   "runtime": "73분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "18:00",
+   "room": "2관",
+   "title": "1980 사북",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010740",
+   "director": "박봉남",
+   "year": "2024년",
+   "runtime": "128분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "11:00",
+   "room": "2관",
+   "title": "[포럼] 세대교차 비평 포럼: 같은 영화, 다른 시선",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010750",
+   "director": "",
+   "year": "",
+   "runtime": "80분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "12:00",
+   "room": "1관",
+   "title": "세계의 주인",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010746",
+   "director": "윤가은",
+   "year": "2025년",
+   "runtime": "119분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "13:30",
+   "room": "2관",
+   "title": "드림팰리스",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010743",
+   "director": "가성문",
+   "year": "2022년",
+   "runtime": "112분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "17:30",
+   "room": "2관",
+   "title": "세기말의 사랑",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010747",
+   "director": "임선애",
+   "year": "2023년",
+   "runtime": "116분",
+   "program": "2026 영평제: 비평의 광장 10선 10담"
   },
   {
    "date": "2026-12-01",
@@ -311,9 +410,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807041,
-  "traveling": 467059,
-  "received": 89182915
+  "members": 807307,
+  "traveling": 467519,
+  "received": 89190272
  },
  "court": {
   "benches": [
@@ -565,15 +664,6 @@
   ],
   "hot": [
    {
-    "date": "2026-11-17",
-    "time": "10:10",
-    "title": "정당법위반(피고인 한학자 외 4)",
-    "bench": "제27형사부 2025고합1506",
-    "apply": "2026.11.11 ~ 2026.11.12 (매일 11시 ~ 17시)",
-    "status": "추첨완료",
-    "seats": "20"
-   },
-   {
     "date": "2026-11-18",
     "time": "10:10",
     "title": "근로자퇴직급여보장법위반(피고인 엄성환 외 2 )",
@@ -588,7 +678,7 @@
     "title": "정당법위반(피고인 한학자 외 4)",
     "bench": "제27형사부 2025고합1506",
     "apply": "2026.11.16 ~ 2026.11.17 (매일 11시 ~ 17시)",
-    "status": "진행중",
+    "status": "종료",
     "seats": "20"
    },
    {
@@ -621,7 +711,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-17 04:30",
+  "updated": "2026-11-18 00:53",
   "caches": [
    {
     "code": "GC3B4QM",
