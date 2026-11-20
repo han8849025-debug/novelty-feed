@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-20 20:24",
+ "updated": "2026-11-21 05:01",
  "kofa": [
-  {
-   "date": "2026-11-20",
-   "time": "15:00",
-   "room": "2관",
-   "title": "루시아",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010723",
-   "director": "움베르토 솔라스",
-   "year": "1968년",
-   "runtime": "161분",
-   "program": "아바나의 기억: 쿠바 영화전"
-  },
-  {
-   "date": "2026-11-20",
-   "time": "19:00",
-   "room": "2관",
-   "title": "어떻게 해야 했을까?",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010725",
-   "director": "후지노 토모아키",
-   "year": "2024년",
-   "runtime": "101분",
-   "program": "11월 프로그래머의 초이스"
-  },
   {
    "date": "2026-11-21",
    "time": "14:00",
@@ -356,24 +334,6 @@
  ],
  "snu": [
   {
-   "date": "2026-11-20",
-   "when": "2026년 11월 20일(금) 13:00",
-   "title": "Enrico Elisi Piano Masterclass",
-   "place": "서울대학교 음악대학 49동 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13214",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-296914abe47ace6d191b5fd8c9a91307_308x450.png",
-   "tuesday": false
-  },
-  {
-   "date": "2026-11-20",
-   "when": "2026. 11. 20. (금) 8:30PM",
-   "title": "Serenade for Winds: 서울대학교 음악대학 관현악과 관악전공 정기연주회",
-   "place": "서울대학교 음악대학 49동 콘서트홀",
-   "url": "https://music.snu.ac.kr/event_in/13213",
-   "img": "https://music.snu.ac.kr/data/file/event_in/thumb-074be2fe312fa23afc72ca6345c46ab3_308x450.png",
-   "tuesday": false
-  },
-  {
    "date": "2026-12-15",
    "when": "2026. 12. 15. (화) 7 PM",
    "title": "2026년 12월 화요음악회 : 소프라노 이혜정 (Soprano Hye Jung Lee)",
@@ -384,9 +344,9 @@
   }
  ],
  "postcrossing": {
-  "members": 807057,
-  "traveling": 464491,
-  "received": 89230513
+  "members": 807180,
+  "traveling": 463551,
+  "received": 89237524
  },
  "court": {
   "benches": [
