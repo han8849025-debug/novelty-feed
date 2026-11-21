@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21 11:07",
+ "updated": "2026-11-21 19:53",
  "kofa": [
   {
    "date": "2026-11-21",
@@ -322,6 +322,17 @@
   },
   {
    "date": "2026-12-08",
+   "time": "15:00",
+   "room": "2관",
+   "title": "폭설(한글자막 CC)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010762",
+   "director": "홍의정,박선우",
+   "year": "2026년",
+   "runtime": "89분",
+   "program": "가치봄영화 특별상영"
+  },
+  {
+   "date": "2026-12-08",
    "time": "19:00",
    "room": "2관",
    "title": "눈 둘 데가 없네",
@@ -344,9 +355,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806841,
-  "traveling": 463294,
-  "received": 89240652
+  "members": 806916,
+  "traveling": 464263,
+  "received": 89244018
  },
  "court": {
   "benches": [
