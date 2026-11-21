@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-21 19:53",
+ "updated": "2026-11-22 04:06",
  "kofa": [
-  {
-   "date": "2026-11-21",
-   "time": "14:00",
-   "room": "2관",
-   "title": "나는보리",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010706",
-   "director": "김진유",
-   "year": "2018년",
-   "runtime": "110분",
-   "program": "키즈시네마 11월"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "18:00",
-   "room": "2관",
-   "title": "어느 관료의 죽음",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010721",
-   "director": "토마스 구티에레즈 알레아",
-   "year": "1966년",
-   "runtime": "85분",
-   "program": "아바나의 기억: 쿠바 영화전"
-  },
   {
    "date": "2026-11-24",
    "time": "16:00",
@@ -355,9 +333,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806916,
-  "traveling": 464263,
-  "received": 89244018
+  "members": 807046,
+  "traveling": 464877,
+  "received": 89250063
  },
  "court": {
   "benches": [
@@ -701,7 +679,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-21 11:07",
+  "updated": "2026-11-22 04:06",
   "caches": [
    {
     "code": "GC3B4QM",
