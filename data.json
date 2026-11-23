@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-23 04:28",
+ "updated": "2026-11-23 10:35",
  "kofa": [
   {
    "date": "2026-11-24",
@@ -240,7 +240,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010757",
    "director": "정창화",
    "year": "1961년",
-   "runtime": "126분",
+   "runtime": "129분",
    "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
   },
   {
@@ -295,7 +295,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010759",
    "director": "김수용",
    "year": "1967년",
-   "runtime": "105분",
+   "runtime": "87분",
    "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
   },
   {
@@ -333,9 +333,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806986,
-  "traveling": 469896,
-  "received": 89260343
+  "members": 806675,
+  "traveling": 471048,
+  "received": 89262169
  },
  "court": {
   "benches": [
@@ -670,7 +670,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-22 20:08",
+  "updated": "2026-11-23 10:35",
   "caches": [
    {
     "code": "GC3B4QM",
