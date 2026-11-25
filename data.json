@@ -1,28 +1,6 @@
 {
- "updated": "2026-11-25 17:18",
+ "updated": "2026-11-26 04:09",
  "kofa": [
-  {
-   "date": "2026-11-25",
-   "time": "15:30",
-   "room": "2관",
-   "title": "마티 슈프림",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010729",
-   "director": "조쉬 사프디",
-   "year": "2025년",
-   "runtime": "149분",
-   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "19:00",
-   "room": "2관",
-   "title": "헤븐 노우즈 왓",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010728",
-   "director": "조쉬 사프디, 베니 사프디",
-   "year": "2014년",
-   "runtime": "97분",
-   "program": "KOFA 더블 피쳐: 떠도는 자, 살아남는 자, 꿈꾸는 자"
-  },
   {
    "date": "2026-11-26",
    "time": "12:00",
@@ -311,9 +289,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806543,
-  "traveling": 470150,
-  "received": 89291354
+  "members": 806706,
+  "traveling": 468878,
+  "received": 89300247
  },
  "court": {
   "benches": [
@@ -630,7 +608,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-25 08:50",
+  "updated": "2026-11-26 04:09",
   "caches": [
    {
     "code": "GC3B4QM",
