@@ -1,50 +1,6 @@
 {
- "updated": "2026-11-26 12:29",
+ "updated": "2026-11-27 01:46",
  "kofa": [
-  {
-   "date": "2026-11-26",
-   "time": "12:00",
-   "room": "2관",
-   "title": "희망의 요소",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010749",
-   "director": "이원영",
-   "year": "2021년",
-   "runtime": "83분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "15:30",
-   "room": "2관",
-   "title": "홍이",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010748",
-   "director": "황슬기",
-   "year": "2024년",
-   "runtime": "86분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "18:30",
-   "room": "2관",
-   "title": "사람과 고기",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010744",
-   "director": "양종현",
-   "year": "2025년",
-   "runtime": "106분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-26",
-   "time": "19:00",
-   "room": "1관",
-   "title": "살목지",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010745",
-   "director": "이상민",
-   "year": "2025년",
-   "runtime": "95분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
   {
    "date": "2026-11-27",
    "time": "13:00",
@@ -207,7 +163,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010761",
    "director": "김기영",
    "year": "1982년",
-   "runtime": "115분",
+   "runtime": "121분",
    "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
   },
   {
@@ -240,7 +196,7 @@
    "url": "https://www.koreafilm.or.kr/movie/PM_010754",
    "director": "이은수",
    "year": "1975년",
-   "runtime": "81분",
+   "runtime": "100분",
    "program": "별들의 시간 불멸의 신화, 배우 이순재·윤일봉·김지미 1주기 추모전"
   },
   {
@@ -256,6 +212,17 @@
   },
   {
    "date": "2026-12-08",
+   "time": "13:00",
+   "room": "2관",
+   "title": "눈 둘 데가 없네",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010730",
+   "director": "홍상수",
+   "year": "2026년",
+   "runtime": "72분",
+   "program": "12월 프로그래머의 초이스"
+  },
+  {
+   "date": "2026-12-08",
    "time": "15:00",
    "room": "2관",
    "title": "폭설(한글자막 CC)",
@@ -266,15 +233,59 @@
    "program": "가치봄영화 특별상영"
   },
   {
-   "date": "2026-12-08",
-   "time": "19:00",
+   "date": "2026-12-10",
+   "time": "18:30",
+   "room": "1관",
+   "title": "추모식 + 가슴에 돋는 칼로 슬픔을 자르고(35mm)",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010763",
+   "director": "",
+   "year": "",
+   "runtime": "210분",
+   "program": "낮은 곳으로 향한 카메라, 멈추지 않는 선택: 홍기선 감독 10주기 추모전"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "15:00",
    "room": "2관",
-   "title": "눈 둘 데가 없네",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010730",
-   "director": "홍상수",
-   "year": "2026년",
-   "runtime": "72분",
-   "program": "12월 프로그래머의 초이스"
+   "title": "[포럼 1] 80년대 영화운동에서 홍기선의 역할과 위상",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010769",
+   "director": "",
+   "year": "",
+   "runtime": "170분",
+   "program": "낮은 곳으로 향한 카메라, 멈추지 않는 선택: 홍기선 감독 10주기 추모전"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "18:30",
+   "room": "2관",
+   "title": "선택",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010767",
+   "director": "홍기선",
+   "year": "2003년",
+   "runtime": "108분",
+   "program": "낮은 곳으로 향한 카메라, 멈추지 않는 선택: 홍기선 감독 10주기 추모전"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "15:00",
+   "room": "2관",
+   "title": "[포럼 2] 홍기선 감독의 영화 세계와 현재적 의미",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010770",
+   "director": "",
+   "year": "",
+   "runtime": "170분",
+   "program": "낮은 곳으로 향한 카메라, 멈추지 않는 선택: 홍기선 감독 10주기 추모전"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "18:30",
+   "room": "2관",
+   "title": "1급기밀",
+   "url": "https://www.koreafilm.or.kr/movie/PM_010768",
+   "director": "홍기선",
+   "year": "2016년",
+   "runtime": "100분",
+   "program": "낮은 곳으로 향한 카메라, 멈추지 않는 선택: 홍기선 감독 10주기 추모전"
   }
  ],
  "snu": [
@@ -289,9 +300,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806393,
-  "traveling": 468199,
-  "received": 89304296
+  "members": 806528,
+  "traveling": 468600,
+  "received": 89312255
  },
  "court": {
   "benches": [
@@ -590,7 +601,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-26 04:09",
+  "updated": "2026-11-27 01:46",
   "caches": [
    {
     "code": "GC3B4QM",
