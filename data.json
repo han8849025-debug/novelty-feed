@@ -1,50 +1,6 @@
 {
- "updated": "2026-11-28 12:15",
+ "updated": "2026-11-29 00:25",
  "kofa": [
-  {
-   "date": "2026-11-28",
-   "time": "11:00",
-   "room": "2관",
-   "title": "[포럼] 세대교차 비평 포럼: 같은 영화, 다른 시선",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010750",
-   "director": "",
-   "year": "",
-   "runtime": "80분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-28",
-   "time": "12:00",
-   "room": "1관",
-   "title": "세계의 주인",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010746",
-   "director": "윤가은",
-   "year": "2025년",
-   "runtime": "119분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-28",
-   "time": "13:30",
-   "room": "2관",
-   "title": "드림팰리스",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010743",
-   "director": "가성문",
-   "year": "2022년",
-   "runtime": "112분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
-  {
-   "date": "2026-11-28",
-   "time": "17:30",
-   "room": "2관",
-   "title": "세기말의 사랑",
-   "url": "https://www.koreafilm.or.kr/movie/PM_010747",
-   "director": "임선애",
-   "year": "2023년",
-   "runtime": "116분",
-   "program": "2026 영평제: 비평의 광장 10선 10담"
-  },
   {
    "date": "2026-12-01",
    "time": "13:00",
@@ -289,9 +245,9 @@
   }
  ],
  "postcrossing": {
-  "members": 806106,
-  "traveling": 468044,
-  "received": 89329864
+  "members": 806217,
+  "traveling": 469481,
+  "received": 89335900
  },
  "court": {
   "benches": [
@@ -572,7 +528,7 @@
   ]
  },
  "geo": {
-  "updated": "2026-11-28 12:15",
+  "updated": "2026-11-29 00:25",
   "caches": [
    {
     "code": "GC3B4QM",
